@@ -1,0 +1,32 @@
+{
+  "name": "my-chat-widget",
+  "version": "1.0.1",
+  "main": "dist/client/intelligent-chat.umd.js",
+  "module": "dist/client/intelligent-chat.es.js",
+  "types": "dist/client/App.d.ts",
+  "files": [
+    "dist",
+    "README.md"
+  ],
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "prepublishOnly": "npm run build"
+  },
+  "peerDependencies": {
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0"
+  },
+  "dependencies": {
+    "@vitejs/plugin-react": "^4.3.4",
+    "react-draggable": "^4.4.6",
+    "react-markdown": "^9.0.1",
+    "tailwindcss": "^3.4.0"
+  },
+  "devDependencies": {
+    "@types/react": "^18.2.45",
+    "@types/react-dom": "^18.2.18",
+    "typescript": "^5.3.3",
+    "vite": "^5.0.10"
+  }
+}
