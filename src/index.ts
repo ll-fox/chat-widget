@@ -1,5 +1,5 @@
 import './client/index.css'; // 确保样式文件被引入
-import React from 'react';
+import * as React from 'react';
 import ReactDOM from 'react-dom'; // 修改为React 16的导入方式
 import { IntelligentChat } from './client/App';
 import { ChatConfig } from './config';
