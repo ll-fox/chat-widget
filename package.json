@@ -1,6 +1,6 @@
 {
   "name": "my-chat-widgets",
-  "version": "1.0.16",
+  "version": "1.0.17",
   "main": "dist/client/intelligent-chat.umd.js",
   "module": "dist/client/intelligent-chat.es.js",
   "types": "dist/client/App.d.ts",
