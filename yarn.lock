@@ -15,42 +15,7 @@
     "@jridgewell/gen-mapping" "^0.3.5"
     "@jridgewell/trace-mapping" "^0.3.24"
 
-"@angular-devkit/core@17.3.11":
-  "integrity" "sha1-p0sELsBs9ibVovajlxsVbGdZ/gk="
-  "resolved" "http://r.npm.sankuai.com/@angular-devkit/core/download/@angular-devkit/core-17.3.11.tgz"
-  "version" "17.3.11"
-  dependencies:
-    "ajv" "8.12.0"
-    "ajv-formats" "2.1.1"
-    "jsonc-parser" "3.2.1"
-    "picomatch" "4.0.1"
-    "rxjs" "7.8.1"
-    "source-map" "0.7.4"
-
-"@angular-devkit/schematics-cli@17.3.11":
-  "integrity" "sha1-3Rlj1ZKufSVV3bushAa6A7zd9P4="
-  "resolved" "http://r.npm.sankuai.com/@angular-devkit/schematics-cli/download/@angular-devkit/schematics-cli-17.3.11.tgz"
-  "version" "17.3.11"
-  dependencies:
-    "@angular-devkit/core" "17.3.11"
-    "@angular-devkit/schematics" "17.3.11"
-    "ansi-colors" "4.1.3"
-    "inquirer" "9.2.15"
-    "symbol-observable" "4.0.0"
-    "yargs-parser" "21.1.1"
-
-"@angular-devkit/schematics@17.3.11":
-  "integrity" "sha1-NwlfsIsKsDQ8fA3eV8qBEVF4cU8="
-  "resolved" "http://r.npm.sankuai.com/@angular-devkit/schematics/download/@angular-devkit/schematics-17.3.11.tgz"
-  "version" "17.3.11"
-  dependencies:
-    "@angular-devkit/core" "17.3.11"
-    "jsonc-parser" "3.2.1"
-    "magic-string" "0.30.8"
-    "ora" "5.4.1"
-    "rxjs" "7.8.1"
-
-"@babel/code-frame@^7.0.0", "@babel/code-frame@^7.16.7", "@babel/code-frame@^7.25.9", "@babel/code-frame@^7.26.2":
+"@babel/code-frame@^7.25.9", "@babel/code-frame@^7.26.2":
   "integrity" "sha1-S1+rl9MzOO/5FiNQVfDrwh5XOoU="
   "resolved" "http://r.npm.sankuai.com/@babel/code-frame/download/@babel/code-frame-7.26.2.tgz"
   "version" "7.26.2"
@@ -173,13 +138,6 @@
   dependencies:
     "@babel/helper-plugin-utils" "^7.25.9"
 
-"@babel/runtime@^7.21.0":
-  "integrity" "sha1-9Of+UnzXEPjcBhhhC2G0sGDDw0E="
-  "resolved" "http://r.npm.sankuai.com/@babel/runtime/download/@babel/runtime-7.26.7.tgz"
-  "version" "7.26.7"
-  dependencies:
-    "regenerator-runtime" "^0.14.0"
-
 "@babel/template@^7.25.9":
   "integrity" "sha1-7LYtgaim9dxf6Kv8OQH8Ut3xUBY="
   "resolved" "http://r.npm.sankuai.com/@babel/template/download/@babel/template-7.25.9.tgz"
@@ -209,11 +167,6 @@
   dependencies:
     "@babel/helper-string-parser" "^7.25.9"
     "@babel/helper-validator-identifier" "^7.25.9"
-
-"@colors/colors@1.5.0":
-  "integrity" "sha1-u1BFecHK6SPmV2pPXaQ9Jfl729k="
-  "resolved" "http://r.npm.sankuai.com/@colors/colors/download/@colors/colors-1.5.0.tgz"
-  "version" "1.5.0"
 
 "@esbuild/darwin-arm64@0.21.5":
   "integrity" "sha1-5JW1OWYOUWkPOSivUKdvsKbM/yo="
@@ -259,7 +212,7 @@
     "@jridgewell/gen-mapping" "^0.3.5"
     "@jridgewell/trace-mapping" "^0.3.25"
 
-"@jridgewell/sourcemap-codec@^1.4.10", "@jridgewell/sourcemap-codec@^1.4.14", "@jridgewell/sourcemap-codec@^1.4.15":
+"@jridgewell/sourcemap-codec@^1.4.10", "@jridgewell/sourcemap-codec@^1.4.14":
   "integrity" "sha1-MYi8snOkFLDSFf0ipYVAuYm5QJo="
   "resolved" "http://r.npm.sankuai.com/@jridgewell/sourcemap-codec/download/@jridgewell/sourcemap-codec-1.5.0.tgz"
   "version" "1.5.0"
@@ -271,108 +224,6 @@
   dependencies:
     "@jridgewell/resolve-uri" "^3.1.0"
     "@jridgewell/sourcemap-codec" "^1.4.14"
-
-"@ljharb/through@^2.3.12":
-  "integrity" "sha1-pd9EKV9E3CO/4QavWUJt0Gd3YLE="
-  "resolved" "http://r.npm.sankuai.com/@ljharb/through/download/@ljharb/through-2.3.14.tgz"
-  "version" "2.3.14"
-  dependencies:
-    "call-bind" "^1.0.8"
-
-"@lukeed/csprng@^1.0.0":
-  "integrity" "sha1-Hj5L0Fwcx6Cy3b2KA/OfbktebP4="
-  "resolved" "http://r.npm.sankuai.com/@lukeed/csprng/download/@lukeed/csprng-1.1.0.tgz"
-  "version" "1.1.0"
-
-"@nestjs/axios@^4.0.0":
-  "integrity" "sha1-Ug/3xiOOY1ZY/jNO5i250bnFVG8="
-  "resolved" "http://r.npm.sankuai.com/@nestjs/axios/download/@nestjs/axios-4.0.0.tgz"
-  "version" "4.0.0"
-
-"@nestjs/cli@^10.3.0":
-  "integrity" "sha1-rDojCWpHJUZTYNjWCBDz6Ff0qAM="
-  "resolved" "http://r.npm.sankuai.com/@nestjs/cli/download/@nestjs/cli-10.4.9.tgz"
-  "version" "10.4.9"
-  dependencies:
-    "@angular-devkit/core" "17.3.11"
-    "@angular-devkit/schematics" "17.3.11"
-    "@angular-devkit/schematics-cli" "17.3.11"
-    "@nestjs/schematics" "^10.0.1"
-    "chalk" "4.1.2"
-    "chokidar" "3.6.0"
-    "cli-table3" "0.6.5"
-    "commander" "4.1.1"
-    "fork-ts-checker-webpack-plugin" "9.0.2"
-    "glob" "10.4.5"
-    "inquirer" "8.2.6"
-    "node-emoji" "1.11.0"
-    "ora" "5.4.1"
-    "tree-kill" "1.2.2"
-    "tsconfig-paths" "4.2.0"
-    "tsconfig-paths-webpack-plugin" "4.2.0"
-    "typescript" "5.7.2"
-    "webpack" "5.97.1"
-    "webpack-node-externals" "3.0.0"
-
-"@nestjs/common@^10.0.0", "@nestjs/common@^10.0.0 || ^11.0.0", "@nestjs/common@^10.3.0":
-  "integrity" "sha1-J8KRRm2RAOuG/b5ve7tNGmrVX3A="
-  "resolved" "http://r.npm.sankuai.com/@nestjs/common/download/@nestjs/common-10.4.15.tgz"
-  "version" "10.4.15"
-  dependencies:
-    "iterare" "1.2.1"
-    "tslib" "2.8.1"
-    "uid" "2.0.2"
-
-"@nestjs/core@^10.0.0", "@nestjs/core@^10.3.0":
-  "integrity" "sha1-E0OjOV1cVOm3kmCMt17vOQU4BtU="
-  "resolved" "http://r.npm.sankuai.com/@nestjs/core/download/@nestjs/core-10.4.15.tgz"
-  "version" "10.4.15"
-  dependencies:
-    "@nuxtjs/opencollective" "0.3.2"
-    "fast-safe-stringify" "2.1.1"
-    "iterare" "1.2.1"
-    "path-to-regexp" "3.3.0"
-    "tslib" "2.8.1"
-    "uid" "2.0.2"
-
-"@nestjs/platform-express@^10.0.0", "@nestjs/platform-express@^10.3.0":
-  "integrity" "sha1-EX/nRwwrk+SsB2h7f6YEoXyiQMU="
-  "resolved" "http://r.npm.sankuai.com/@nestjs/platform-express/download/@nestjs/platform-express-10.4.15.tgz"
-  "version" "10.4.15"
-  dependencies:
-    "body-parser" "1.20.3"
-    "cors" "2.8.5"
-    "express" "4.21.2"
-    "multer" "1.4.4-lts.1"
-    "tslib" "2.8.1"
-
-"@nestjs/platform-socket.io@^10.0.0", "@nestjs/platform-socket.io@^10.3.0":
-  "integrity" "sha1-jHTTiupOXm26aGqTKC2CuLz6Uvk="
-  "resolved" "http://r.npm.sankuai.com/@nestjs/platform-socket.io/download/@nestjs/platform-socket.io-10.4.15.tgz"
-  "version" "10.4.15"
-  dependencies:
-    "socket.io" "4.8.1"
-    "tslib" "2.8.1"
-
-"@nestjs/schematics@^10.0.1":
-  "integrity" "sha1-YFP0PFBlueglzQjE2xv2vLyaamI="
-  "resolved" "http://r.npm.sankuai.com/@nestjs/schematics/download/@nestjs/schematics-10.2.3.tgz"
-  "version" "10.2.3"
-  dependencies:
-    "@angular-devkit/core" "17.3.11"
-    "@angular-devkit/schematics" "17.3.11"
-    "comment-json" "4.2.5"
-    "jsonc-parser" "3.3.1"
-    "pluralize" "8.0.0"
-
-"@nestjs/websockets@^10.0.0", "@nestjs/websockets@^10.3.0":
-  "integrity" "sha1-oSt/hmfPzxFlV5B+sGpb58WADB0="
-  "resolved" "http://r.npm.sankuai.com/@nestjs/websockets/download/@nestjs/websockets-10.4.15.tgz"
-  "version" "10.4.15"
-  dependencies:
-    "iterare" "1.2.1"
-    "object-hash" "3.0.0"
-    "tslib" "2.8.1"
 
 "@nodelib/fs.scandir@2.1.5":
   "integrity" "sha1-dhnC6yGyVIP20WdUi0z9WnSIw9U="
@@ -395,15 +246,6 @@
     "@nodelib/fs.scandir" "2.1.5"
     "fastq" "^1.6.0"
 
-"@nuxtjs/opencollective@0.3.2":
-  "integrity" "sha1-YgzhBE96x3GF6CXhk2EVuzjiaBw="
-  "resolved" "http://r.npm.sankuai.com/@nuxtjs/opencollective/download/@nuxtjs/opencollective-0.3.2.tgz"
-  "version" "0.3.2"
-  dependencies:
-    "chalk" "^4.1.0"
-    "consola" "^2.15.0"
-    "node-fetch" "^2.6.1"
-
 "@pkgjs/parseargs@^0.11.0":
   "integrity" "sha1-p36nQvqyV3UUVDTrHSMoz1ATrDM="
   "resolved" "http://r.npm.sankuai.com/@pkgjs/parseargs/download/@pkgjs/parseargs-0.11.0.tgz"
@@ -413,11 +255,6 @@
   "integrity" "sha1-uPvMk4m8b60zNKHRbb6qpWN8V3I="
   "resolved" "http://r.npm.sankuai.com/@rollup/rollup-darwin-arm64/download/@rollup/rollup-darwin-arm64-4.34.6.tgz"
   "version" "4.34.6"
-
-"@socket.io/component-emitter@~3.1.0":
-  "integrity" "sha1-gh+EQvQXXY8EZ7na8m46GOLQKvI="
-  "resolved" "http://r.npm.sankuai.com/@socket.io/component-emitter/download/@socket.io/component-emitter-3.1.2.tgz"
-  "version" "3.1.2"
 
 "@types/babel__core@^7.20.5":
   "integrity" "sha1-PfFfJ7qFMZyqB7oI0HIYibs5wBc="
@@ -452,50 +289,12 @@
   dependencies:
     "@babel/types" "^7.20.7"
 
-"@types/body-parser@*":
-  "integrity" "sha1-BM6aO2d9yL1oGhfaGrmDXcnT7eQ="
-  "resolved" "http://r.npm.sankuai.com/@types/body-parser/download/@types/body-parser-1.19.5.tgz"
-  "version" "1.19.5"
-  dependencies:
-    "@types/connect" "*"
-    "@types/node" "*"
-
-"@types/connect@*":
-  "integrity" "sha1-W6fzvE+73q/43e2VLl/yzFP42Fg="
-  "resolved" "http://r.npm.sankuai.com/@types/connect/download/@types/connect-3.4.38.tgz"
-  "version" "3.4.38"
-  dependencies:
-    "@types/node" "*"
-
-"@types/cors@^2.8.12":
-  "integrity" "sha1-XXGKXklKgWb1admGeU5JxIshays="
-  "resolved" "http://r.npm.sankuai.com/@types/cors/download/@types/cors-2.8.17.tgz"
-  "version" "2.8.17"
-  dependencies:
-    "@types/node" "*"
-
 "@types/debug@^4.0.0":
   "integrity" "sha1-oVXyFpCHGVNBDfS2tvUxh/BQCRc="
   "resolved" "http://r.npm.sankuai.com/@types/debug/download/@types/debug-4.1.12.tgz"
   "version" "4.1.12"
   dependencies:
     "@types/ms" "*"
-
-"@types/eslint-scope@^3.7.7":
-  "integrity" "sha1-MQi9XxiwzbJ3yGez3UScntcHmsU="
-  "resolved" "http://r.npm.sankuai.com/@types/eslint-scope/download/@types/eslint-scope-3.7.7.tgz"
-  "version" "3.7.7"
-  dependencies:
-    "@types/eslint" "*"
-    "@types/estree" "*"
-
-"@types/eslint@*":
-  "integrity" "sha1-1Xla1zLOgXFfJ/ddqRMASlZ1FYQ="
-  "resolved" "http://r.npm.sankuai.com/@types/eslint/download/@types/eslint-9.6.1.tgz"
-  "version" "9.6.1"
-  dependencies:
-    "@types/estree" "*"
-    "@types/json-schema" "*"
 
 "@types/estree-jsx@^1.0.0":
   "integrity" "sha1-hYqI6iDzT+ZREfAFpon6Hr9w3Bg="
@@ -504,30 +303,10 @@
   dependencies:
     "@types/estree" "*"
 
-"@types/estree@*", "@types/estree@^1.0.0", "@types/estree@^1.0.6", "@types/estree@1.0.6":
+"@types/estree@*", "@types/estree@^1.0.0", "@types/estree@1.0.6":
   "integrity" "sha1-Yo7/7q4gZKG055946B2Ht+X8e1A="
   "resolved" "http://r.npm.sankuai.com/@types/estree/download/@types/estree-1.0.6.tgz"
   "version" "1.0.6"
-
-"@types/express-serve-static-core@^5.0.0":
-  "integrity" "sha1-Qf7E6iDpx7IvAkq4ipXGuyiPUbg="
-  "resolved" "http://r.npm.sankuai.com/@types/express-serve-static-core/download/@types/express-serve-static-core-5.0.6.tgz"
-  "version" "5.0.6"
-  dependencies:
-    "@types/node" "*"
-    "@types/qs" "*"
-    "@types/range-parser" "*"
-    "@types/send" "*"
-
-"@types/express@^5.0.0":
-  "integrity" "sha1-E6fR91KV6Q0Z7W50yrNnhIjqqWw="
-  "resolved" "http://r.npm.sankuai.com/@types/express/download/@types/express-5.0.0.tgz"
-  "version" "5.0.0"
-  dependencies:
-    "@types/body-parser" "*"
-    "@types/express-serve-static-core" "^5.0.0"
-    "@types/qs" "*"
-    "@types/serve-static" "*"
 
 "@types/hast@^3.0.0":
   "integrity" "sha1-HWs5mTuCzqateDlFsFCMJZA+Fao="
@@ -536,16 +315,6 @@
   dependencies:
     "@types/unist" "*"
 
-"@types/http-errors@*":
-  "integrity" "sha1-frR3JsORtzRabsNa1/TeRpz1uk8="
-  "resolved" "http://r.npm.sankuai.com/@types/http-errors/download/@types/http-errors-2.0.4.tgz"
-  "version" "2.0.4"
-
-"@types/json-schema@*", "@types/json-schema@^7.0.8", "@types/json-schema@^7.0.9":
-  "integrity" "sha1-WWoXRyM2lNUPatinhp/Lb1bPWEE="
-  "resolved" "http://r.npm.sankuai.com/@types/json-schema/download/@types/json-schema-7.0.15.tgz"
-  "version" "7.0.15"
-
 "@types/mdast@^4.0.0":
   "integrity" "sha1-fM9y7dLxqn3TQ34YDGQ3NYWATdY="
   "resolved" "http://r.npm.sankuai.com/@types/mdast/download/@types/mdast-4.0.4.tgz"
@@ -553,44 +322,22 @@
   dependencies:
     "@types/unist" "*"
 
-"@types/mime@^1":
-  "integrity" "sha1-HvMC4Bz30rWg+lJnkMkSO/HQZpA="
-  "resolved" "http://r.npm.sankuai.com/@types/mime/download/@types/mime-1.3.5.tgz"
-  "version" "1.3.5"
-
 "@types/ms@*":
   "integrity" "sha1-BSqmekjszEMJ1/AZG35BQ0uQu3g="
   "resolved" "http://r.npm.sankuai.com/@types/ms/download/@types/ms-2.1.0.tgz"
   "version" "2.1.0"
 
-"@types/node@*", "@types/node@^18.0.0 || >=20.0.0", "@types/node@^20.10.5":
+"@types/node@^18.0.0 || >=20.0.0":
   "integrity" "sha1-XOoq8uJxMTdCwU9Bjq9dz6iuLjo="
   "resolved" "http://r.npm.sankuai.com/@types/node/download/@types/node-20.17.17.tgz"
   "version" "20.17.17"
   dependencies:
     "undici-types" "~6.19.2"
 
-"@types/node@>=10.0.0":
-  "integrity" "sha1-oqP++963umuJ9ANxhCFi+sCTTzM="
-  "resolved" "http://r.npm.sankuai.com/@types/node/download/@types/node-22.13.1.tgz"
-  "version" "22.13.1"
-  dependencies:
-    "undici-types" "~6.20.0"
-
 "@types/prop-types@*":
   "integrity" "sha1-FDNBnXOyp+v8aRjc79LsDVzWmPI="
   "resolved" "http://r.npm.sankuai.com/@types/prop-types/download/@types/prop-types-15.7.14.tgz"
   "version" "15.7.14"
-
-"@types/qs@*":
-  "integrity" "sha1-h3KSyqkffBshMDKzRiZQW3RmJMI="
-  "resolved" "http://r.npm.sankuai.com/@types/qs/download/@types/qs-6.9.18.tgz"
-  "version" "6.9.18"
-
-"@types/range-parser@*":
-  "integrity" "sha1-UK5DU+qt3AQEQnmBL1LIxlhX28s="
-  "resolved" "http://r.npm.sankuai.com/@types/range-parser/download/@types/range-parser-1.2.7.tgz"
-  "version" "1.2.7"
 
 "@types/react-dom@^18.2.18":
   "integrity" "sha1-Rfn4c5jF3OoIW3FcWN3PH69l9xY="
@@ -604,23 +351,6 @@
   dependencies:
     "@types/prop-types" "*"
     "csstype" "^3.0.2"
-
-"@types/send@*":
-  "integrity" "sha1-ZhnNJOcnB5NwLk5qS5WKkBDPxXo="
-  "resolved" "http://r.npm.sankuai.com/@types/send/download/@types/send-0.17.4.tgz"
-  "version" "0.17.4"
-  dependencies:
-    "@types/mime" "^1"
-    "@types/node" "*"
-
-"@types/serve-static@*":
-  "integrity" "sha1-IhdLvXT7l/4wMQlzjptcLzBk9xQ="
-  "resolved" "http://r.npm.sankuai.com/@types/serve-static/download/@types/serve-static-1.15.7.tgz"
-  "version" "1.15.7"
-  dependencies:
-    "@types/http-errors" "*"
-    "@types/node" "*"
-    "@types/send" "*"
 
 "@types/unist@*", "@types/unist@^3.0.0":
   "integrity" "sha1-rKqw+RnOaczmKcLU7S60rcG2wgw="
@@ -648,217 +378,10 @@
     "@types/babel__core" "^7.20.5"
     "react-refresh" "^0.14.2"
 
-"@webassemblyjs/ast@^1.14.1", "@webassemblyjs/ast@1.14.1":
-  "integrity" "sha1-qfagfysDyVyNOMRTah/ftSH/VbY="
-  "resolved" "http://r.npm.sankuai.com/@webassemblyjs/ast/download/@webassemblyjs/ast-1.14.1.tgz"
-  "version" "1.14.1"
-  dependencies:
-    "@webassemblyjs/helper-numbers" "1.13.2"
-    "@webassemblyjs/helper-wasm-bytecode" "1.13.2"
-
-"@webassemblyjs/floating-point-hex-parser@1.13.2":
-  "integrity" "sha1-/Moe7dscxOe27tT8eVbWgTshufs="
-  "resolved" "http://r.npm.sankuai.com/@webassemblyjs/floating-point-hex-parser/download/@webassemblyjs/floating-point-hex-parser-1.13.2.tgz"
-  "version" "1.13.2"
-
-"@webassemblyjs/helper-api-error@1.13.2":
-  "integrity" "sha1-4KFhUiSLw42u523X4h8Vxe86sec="
-  "resolved" "http://r.npm.sankuai.com/@webassemblyjs/helper-api-error/download/@webassemblyjs/helper-api-error-1.13.2.tgz"
-  "version" "1.13.2"
-
-"@webassemblyjs/helper-buffer@1.14.1":
-  "integrity" "sha1-giqbxgMWZTH31d+E5ntb+ZtyuWs="
-  "resolved" "http://r.npm.sankuai.com/@webassemblyjs/helper-buffer/download/@webassemblyjs/helper-buffer-1.14.1.tgz"
-  "version" "1.14.1"
-
-"@webassemblyjs/helper-numbers@1.13.2":
-  "integrity" "sha1-29kyVI5xGfS4p4d/1ajSDmNJCy0="
-  "resolved" "http://r.npm.sankuai.com/@webassemblyjs/helper-numbers/download/@webassemblyjs/helper-numbers-1.13.2.tgz"
-  "version" "1.13.2"
-  dependencies:
-    "@webassemblyjs/floating-point-hex-parser" "1.13.2"
-    "@webassemblyjs/helper-api-error" "1.13.2"
-    "@xtuc/long" "4.2.2"
-
-"@webassemblyjs/helper-wasm-bytecode@1.13.2":
-  "integrity" "sha1-5VYQh1j0SKroTIUOWTzhig6zHgs="
-  "resolved" "http://r.npm.sankuai.com/@webassemblyjs/helper-wasm-bytecode/download/@webassemblyjs/helper-wasm-bytecode-1.13.2.tgz"
-  "version" "1.13.2"
-
-"@webassemblyjs/helper-wasm-section@1.14.1":
-  "integrity" "sha1-lindqcRDDqtUtZEFPW3G87oFA0g="
-  "resolved" "http://r.npm.sankuai.com/@webassemblyjs/helper-wasm-section/download/@webassemblyjs/helper-wasm-section-1.14.1.tgz"
-  "version" "1.14.1"
-  dependencies:
-    "@webassemblyjs/ast" "1.14.1"
-    "@webassemblyjs/helper-buffer" "1.14.1"
-    "@webassemblyjs/helper-wasm-bytecode" "1.13.2"
-    "@webassemblyjs/wasm-gen" "1.14.1"
-
-"@webassemblyjs/ieee754@1.13.2":
-  "integrity" "sha1-HF6qzh1gatosf9cEXqk1bFnuDbo="
-  "resolved" "http://r.npm.sankuai.com/@webassemblyjs/ieee754/download/@webassemblyjs/ieee754-1.13.2.tgz"
-  "version" "1.13.2"
-  dependencies:
-    "@xtuc/ieee754" "^1.2.0"
-
-"@webassemblyjs/leb128@1.13.2":
-  "integrity" "sha1-V8XD3rAQXQLOJfo/109OvJ/Qu7A="
-  "resolved" "http://r.npm.sankuai.com/@webassemblyjs/leb128/download/@webassemblyjs/leb128-1.13.2.tgz"
-  "version" "1.13.2"
-  dependencies:
-    "@xtuc/long" "4.2.2"
-
-"@webassemblyjs/utf8@1.13.2":
-  "integrity" "sha1-kXog6T9xrVYClmwtaFrgxsIfYPE="
-  "resolved" "http://r.npm.sankuai.com/@webassemblyjs/utf8/download/@webassemblyjs/utf8-1.13.2.tgz"
-  "version" "1.13.2"
-
-"@webassemblyjs/wasm-edit@^1.14.1":
-  "integrity" "sha1-rGaJ9QIhm1kZjd7ELc1JaxAE1Zc="
-  "resolved" "http://r.npm.sankuai.com/@webassemblyjs/wasm-edit/download/@webassemblyjs/wasm-edit-1.14.1.tgz"
-  "version" "1.14.1"
-  dependencies:
-    "@webassemblyjs/ast" "1.14.1"
-    "@webassemblyjs/helper-buffer" "1.14.1"
-    "@webassemblyjs/helper-wasm-bytecode" "1.13.2"
-    "@webassemblyjs/helper-wasm-section" "1.14.1"
-    "@webassemblyjs/wasm-gen" "1.14.1"
-    "@webassemblyjs/wasm-opt" "1.14.1"
-    "@webassemblyjs/wasm-parser" "1.14.1"
-    "@webassemblyjs/wast-printer" "1.14.1"
-
-"@webassemblyjs/wasm-gen@1.14.1":
-  "integrity" "sha1-mR5/DAkMsLtiu6yIIHbj0hnalXA="
-  "resolved" "http://r.npm.sankuai.com/@webassemblyjs/wasm-gen/download/@webassemblyjs/wasm-gen-1.14.1.tgz"
-  "version" "1.14.1"
-  dependencies:
-    "@webassemblyjs/ast" "1.14.1"
-    "@webassemblyjs/helper-wasm-bytecode" "1.13.2"
-    "@webassemblyjs/ieee754" "1.13.2"
-    "@webassemblyjs/leb128" "1.13.2"
-    "@webassemblyjs/utf8" "1.13.2"
-
-"@webassemblyjs/wasm-opt@1.14.1":
-  "integrity" "sha1-5vce18yuRngcIGAX08FMUO+oEGs="
-  "resolved" "http://r.npm.sankuai.com/@webassemblyjs/wasm-opt/download/@webassemblyjs/wasm-opt-1.14.1.tgz"
-  "version" "1.14.1"
-  dependencies:
-    "@webassemblyjs/ast" "1.14.1"
-    "@webassemblyjs/helper-buffer" "1.14.1"
-    "@webassemblyjs/wasm-gen" "1.14.1"
-    "@webassemblyjs/wasm-parser" "1.14.1"
-
-"@webassemblyjs/wasm-parser@^1.14.1", "@webassemblyjs/wasm-parser@1.14.1":
-  "integrity" "sha1-s+E/GJNgXKeLUsaOVM9qhl+Qufs="
-  "resolved" "http://r.npm.sankuai.com/@webassemblyjs/wasm-parser/download/@webassemblyjs/wasm-parser-1.14.1.tgz"
-  "version" "1.14.1"
-  dependencies:
-    "@webassemblyjs/ast" "1.14.1"
-    "@webassemblyjs/helper-api-error" "1.13.2"
-    "@webassemblyjs/helper-wasm-bytecode" "1.13.2"
-    "@webassemblyjs/ieee754" "1.13.2"
-    "@webassemblyjs/leb128" "1.13.2"
-    "@webassemblyjs/utf8" "1.13.2"
-
-"@webassemblyjs/wast-printer@1.14.1":
-  "integrity" "sha1-O7PpY4qK5f2vlhDnoGtNn5qm/gc="
-  "resolved" "http://r.npm.sankuai.com/@webassemblyjs/wast-printer/download/@webassemblyjs/wast-printer-1.14.1.tgz"
-  "version" "1.14.1"
-  dependencies:
-    "@webassemblyjs/ast" "1.14.1"
-    "@xtuc/long" "4.2.2"
-
-"@xtuc/ieee754@^1.2.0":
-  "integrity" "sha1-7vAUoxRa5Hehy8AM0eVSM23Ot5A="
-  "resolved" "http://r.npm.sankuai.com/@xtuc/ieee754/download/@xtuc/ieee754-1.2.0.tgz"
-  "version" "1.2.0"
-
-"@xtuc/long@4.2.2":
-  "integrity" "sha1-0pHGpOl5ibXGHZrPOWrk/hM6cY0="
-  "resolved" "http://r.npm.sankuai.com/@xtuc/long/download/@xtuc/long-4.2.2.tgz"
-  "version" "4.2.2"
-
-"accepts@~1.3.4", "accepts@~1.3.8":
-  "integrity" "sha1-C/C+EltnAUrcsLCSHmLbe//hay4="
-  "resolved" "http://r.npm.sankuai.com/accepts/download/accepts-1.3.8.tgz"
-  "version" "1.3.8"
-  dependencies:
-    "mime-types" "~2.1.34"
-    "negotiator" "0.6.3"
-
-"acorn@^8.14.0", "acorn@^8.8.2":
+"acorn@^8.8.2":
   "integrity" "sha1-Bj4scMrF+09kZ/CxEVLgTGgnlbA="
   "resolved" "http://r.npm.sankuai.com/acorn/download/acorn-8.14.0.tgz"
   "version" "8.14.0"
-
-"ajv-formats@^2.1.1":
-  "integrity" "sha1-bmaUAGWet0lzu/LjMycYCgmWtSA="
-  "resolved" "http://r.npm.sankuai.com/ajv-formats/download/ajv-formats-2.1.1.tgz"
-  "version" "2.1.1"
-  dependencies:
-    "ajv" "^8.0.0"
-
-"ajv-formats@2.1.1":
-  "integrity" "sha1-bmaUAGWet0lzu/LjMycYCgmWtSA="
-  "resolved" "http://r.npm.sankuai.com/ajv-formats/download/ajv-formats-2.1.1.tgz"
-  "version" "2.1.1"
-  dependencies:
-    "ajv" "^8.0.0"
-
-"ajv-keywords@^3.5.2":
-  "integrity" "sha1-MfKdpatuANHC0yms97WSlhTVAU0="
-  "resolved" "http://r.npm.sankuai.com/ajv-keywords/download/ajv-keywords-3.5.2.tgz"
-  "version" "3.5.2"
-
-"ajv-keywords@^5.1.0":
-  "integrity" "sha1-adTThaRzPNvqtElkoRcKiPh/DhY="
-  "resolved" "http://r.npm.sankuai.com/ajv-keywords/download/ajv-keywords-5.1.0.tgz"
-  "version" "5.1.0"
-  dependencies:
-    "fast-deep-equal" "^3.1.3"
-
-"ajv@^6.12.5", "ajv@^6.9.1":
-  "integrity" "sha1-uvWmLoArB9l3A0WG+MO69a3ybfQ="
-  "resolved" "http://r.npm.sankuai.com/ajv/download/ajv-6.12.6.tgz"
-  "version" "6.12.6"
-  dependencies:
-    "fast-deep-equal" "^3.1.1"
-    "fast-json-stable-stringify" "^2.0.0"
-    "json-schema-traverse" "^0.4.1"
-    "uri-js" "^4.2.2"
-
-"ajv@^8.0.0", "ajv@^8.8.2", "ajv@^8.9.0":
-  "integrity" "sha1-N9mlx3ava8ktf0+VEOukwKYNEaY="
-  "resolved" "http://r.npm.sankuai.com/ajv/download/ajv-8.17.1.tgz"
-  "version" "8.17.1"
-  dependencies:
-    "fast-deep-equal" "^3.1.3"
-    "fast-uri" "^3.0.1"
-    "json-schema-traverse" "^1.0.0"
-    "require-from-string" "^2.0.2"
-
-"ajv@8.12.0":
-  "integrity" "sha1-0aBScyPiL1NWLFZ8AJkVd9++GdE="
-  "resolved" "http://r.npm.sankuai.com/ajv/download/ajv-8.12.0.tgz"
-  "version" "8.12.0"
-  dependencies:
-    "fast-deep-equal" "^3.1.1"
-    "json-schema-traverse" "^1.0.0"
-    "require-from-string" "^2.0.2"
-    "uri-js" "^4.2.2"
-
-"ansi-colors@4.1.3":
-  "integrity" "sha1-N2ETQOsiQ+cMxgTK011jJw1IeBs="
-  "resolved" "http://r.npm.sankuai.com/ansi-colors/download/ansi-colors-4.1.3.tgz"
-  "version" "4.1.3"
-
-"ansi-escapes@^4.2.1", "ansi-escapes@^4.3.2":
-  "integrity" "sha1-ayKR0dt9mLZSHV8e+kLQ86n+tl4="
-  "resolved" "http://r.npm.sankuai.com/ansi-escapes/download/ansi-escapes-4.3.2.tgz"
-  "version" "4.3.2"
-  dependencies:
-    "type-fest" "^0.21.3"
 
 "ansi-regex@^5.0.1":
   "integrity" "sha1-CCyyyJyf6GWaMRpTvWpNxTAdswQ="
@@ -870,7 +393,7 @@
   "resolved" "http://r.npm.sankuai.com/ansi-regex/download/ansi-regex-6.1.0.tgz"
   "version" "6.1.0"
 
-"ansi-styles@^4.0.0", "ansi-styles@^4.1.0":
+"ansi-styles@^4.0.0":
   "integrity" "sha1-7dgDYornHATIWuegkG7a00tkiTc="
   "resolved" "http://r.npm.sankuai.com/ansi-styles/download/ansi-styles-4.3.0.tgz"
   "version" "4.3.0"
@@ -895,44 +418,10 @@
     "normalize-path" "^3.0.0"
     "picomatch" "^2.0.4"
 
-"append-field@^1.0.0":
-  "integrity" "sha1-HjRA6RXwsSA9I3SOeO3XubW0PlY="
-  "resolved" "http://r.npm.sankuai.com/append-field/download/append-field-1.0.0.tgz"
-  "version" "1.0.0"
-
 "arg@^5.0.2":
   "integrity" "sha1-yBQzzEJ8ksTc9IZRQtvKbxWs1Zw="
   "resolved" "http://r.npm.sankuai.com/arg/download/arg-5.0.2.tgz"
   "version" "5.0.2"
-
-"argparse@^2.0.1":
-  "integrity" "sha1-JG9Q88p4oyQPbJl+ipvR6sSeSzg="
-  "resolved" "http://r.npm.sankuai.com/argparse/download/argparse-2.0.1.tgz"
-  "version" "2.0.1"
-
-"array-flatten@1.1.1":
-  "integrity" "sha1-ml9pkFGx5wczKPKgCJaLZOopVdI="
-  "resolved" "http://r.npm.sankuai.com/array-flatten/download/array-flatten-1.1.1.tgz"
-  "version" "1.1.1"
-
-"array-timsort@^1.0.3":
-  "integrity" "sha1-PJ5BmeVPsrnD/ll2OWohYU7w2SY="
-  "resolved" "http://r.npm.sankuai.com/array-timsort/download/array-timsort-1.0.3.tgz"
-  "version" "1.0.3"
-
-"asynckit@^0.4.0":
-  "integrity" "sha1-x57Zf380y48robyXkLzDZkdLS3k="
-  "resolved" "http://r.npm.sankuai.com/asynckit/download/asynckit-0.4.0.tgz"
-  "version" "0.4.0"
-
-"axios@^1.3.1":
-  "integrity" "sha1-fBGNIUbp66xRK30RKHcc3XONEeM="
-  "resolved" "http://r.npm.sankuai.com/axios/download/axios-1.8.1.tgz"
-  "version" "1.8.1"
-  dependencies:
-    "follow-redirects" "^1.15.6"
-    "form-data" "^4.0.0"
-    "proxy-from-env" "^1.1.0"
 
 "bail@^2.0.0":
   "integrity" "sha1-0m9c2P5db4MqMVF7n3w1YEC6bV0="
@@ -944,55 +433,10 @@
   "resolved" "http://r.npm.sankuai.com/balanced-match/download/balanced-match-1.0.2.tgz"
   "version" "1.0.2"
 
-"base64-js@^1.3.1":
-  "integrity" "sha1-GxtEAWClv3rUC2UPCVljSBkDkwo="
-  "resolved" "http://r.npm.sankuai.com/base64-js/download/base64-js-1.5.1.tgz"
-  "version" "1.5.1"
-
-"base64id@~2.0.0", "base64id@2.0.0":
-  "integrity" "sha1-J3Csa8R9MSr5eov5pjQ0LgzSXLY="
-  "resolved" "http://r.npm.sankuai.com/base64id/download/base64id-2.0.0.tgz"
-  "version" "2.0.0"
-
 "binary-extensions@^2.0.0":
   "integrity" "sha1-9uFKl4WNMnJSIAJC1Mz+UixEVSI="
   "resolved" "http://r.npm.sankuai.com/binary-extensions/download/binary-extensions-2.3.0.tgz"
   "version" "2.3.0"
-
-"bl@^4.1.0":
-  "integrity" "sha1-RRU1JkGCvsL7vIOmKrmM8R2fezo="
-  "resolved" "http://r.npm.sankuai.com/bl/download/bl-4.1.0.tgz"
-  "version" "4.1.0"
-  dependencies:
-    "buffer" "^5.5.0"
-    "inherits" "^2.0.4"
-    "readable-stream" "^3.4.0"
-
-"body-parser@1.20.3":
-  "integrity" "sha1-GVNDEiHG+1zWPEs21T+rCSjlSMY="
-  "resolved" "http://r.npm.sankuai.com/body-parser/download/body-parser-1.20.3.tgz"
-  "version" "1.20.3"
-  dependencies:
-    "bytes" "3.1.2"
-    "content-type" "~1.0.5"
-    "debug" "2.6.9"
-    "depd" "2.0.0"
-    "destroy" "1.2.0"
-    "http-errors" "2.0.0"
-    "iconv-lite" "0.4.24"
-    "on-finished" "2.4.1"
-    "qs" "6.13.0"
-    "raw-body" "2.5.2"
-    "type-is" "~1.6.18"
-    "unpipe" "1.0.0"
-
-"brace-expansion@^1.1.7":
-  "integrity" "sha1-PH/L9SnYcibz0vUrlm/1Jx60Qd0="
-  "resolved" "http://r.npm.sankuai.com/brace-expansion/download/brace-expansion-1.1.11.tgz"
-  "version" "1.1.11"
-  dependencies:
-    "balanced-match" "^1.0.0"
-    "concat-map" "0.0.1"
 
 "brace-expansion@^2.0.1":
   "integrity" "sha1-HtxFng8MVISG7Pn8mfIiE2S5oK4="
@@ -1023,57 +467,6 @@
   "resolved" "http://r.npm.sankuai.com/buffer-from/download/buffer-from-1.1.2.tgz"
   "version" "1.1.2"
 
-"buffer@^5.5.0":
-  "integrity" "sha1-umLnwTEzBTWCGXFghRqPZI6Z7tA="
-  "resolved" "http://r.npm.sankuai.com/buffer/download/buffer-5.7.1.tgz"
-  "version" "5.7.1"
-  dependencies:
-    "base64-js" "^1.3.1"
-    "ieee754" "^1.1.13"
-
-"busboy@^1.0.0":
-  "integrity" "sha1-lm6japUC5DzbkUaWJSO5L1MfaJM="
-  "resolved" "http://r.npm.sankuai.com/busboy/download/busboy-1.6.0.tgz"
-  "version" "1.6.0"
-  dependencies:
-    "streamsearch" "^1.1.0"
-
-"bytes@3.1.2":
-  "integrity" "sha1-iwvuuYYFrfGxKPpDhkA8AJ4CIaU="
-  "resolved" "http://r.npm.sankuai.com/bytes/download/bytes-3.1.2.tgz"
-  "version" "3.1.2"
-
-"call-bind-apply-helpers@^1.0.0", "call-bind-apply-helpers@^1.0.1":
-  "integrity" "sha1-MuWJLmNhspsLVFum93YzeNrKKEA="
-  "resolved" "http://r.npm.sankuai.com/call-bind-apply-helpers/download/call-bind-apply-helpers-1.0.1.tgz"
-  "version" "1.0.1"
-  dependencies:
-    "es-errors" "^1.3.0"
-    "function-bind" "^1.1.2"
-
-"call-bind@^1.0.8":
-  "integrity" "sha1-BzapZg9TfjOIgm9EDV7EX3ROqkw="
-  "resolved" "http://r.npm.sankuai.com/call-bind/download/call-bind-1.0.8.tgz"
-  "version" "1.0.8"
-  dependencies:
-    "call-bind-apply-helpers" "^1.0.0"
-    "es-define-property" "^1.0.0"
-    "get-intrinsic" "^1.2.4"
-    "set-function-length" "^1.2.2"
-
-"call-bound@^1.0.2":
-  "integrity" "sha1-Qc/QMrWT45F2pxUzq084SqBP1oE="
-  "resolved" "http://r.npm.sankuai.com/call-bound/download/call-bound-1.0.3.tgz"
-  "version" "1.0.3"
-  dependencies:
-    "call-bind-apply-helpers" "^1.0.1"
-    "get-intrinsic" "^1.2.6"
-
-"callsites@^3.0.0":
-  "integrity" "sha1-s2MKvYlDQy9Us/BRkjjjPNffL3M="
-  "resolved" "http://r.npm.sankuai.com/callsites/download/callsites-3.1.0.tgz"
-  "version" "3.1.0"
-
 "camelcase-css@^2.0.1":
   "integrity" "sha1-7pePaUeRTMMMa0R0G27R338EP9U="
   "resolved" "http://r.npm.sankuai.com/camelcase-css/download/camelcase-css-2.0.1.tgz"
@@ -1088,19 +481,6 @@
   "integrity" "sha1-F6O/gjAuCHDW2kOgExGovAKj7PU="
   "resolved" "http://r.npm.sankuai.com/ccount/download/ccount-2.0.1.tgz"
   "version" "2.0.1"
-
-"chalk@^4.1.0", "chalk@^4.1.1", "chalk@^4.1.2", "chalk@4.1.2":
-  "integrity" "sha1-qsTit3NKdAhnrrFr8CqtVWoeegE="
-  "resolved" "http://r.npm.sankuai.com/chalk/download/chalk-4.1.2.tgz"
-  "version" "4.1.2"
-  dependencies:
-    "ansi-styles" "^4.1.0"
-    "supports-color" "^7.1.0"
-
-"chalk@^5.3.0":
-  "integrity" "sha1-G0i/CWPsFY3OKqz2nAk64t0gktg="
-  "resolved" "http://r.npm.sankuai.com/chalk/download/chalk-5.4.1.tgz"
-  "version" "5.4.1"
 
 "character-entities-html4@^2.0.0":
   "integrity" "sha1-HxrblAyXGksiujndymthjcblays="
@@ -1122,12 +502,7 @@
   "resolved" "http://r.npm.sankuai.com/character-reference-invalid/download/character-reference-invalid-2.0.1.tgz"
   "version" "2.0.1"
 
-"chardet@^0.7.0":
-  "integrity" "sha1-kAlISfCTfy7twkJdDSip5fDLrZ4="
-  "resolved" "http://r.npm.sankuai.com/chardet/download/chardet-0.7.0.tgz"
-  "version" "0.7.0"
-
-"chokidar@^3.5.2", "chokidar@^3.5.3", "chokidar@^3.6.0", "chokidar@3.6.0":
+"chokidar@^3.6.0":
   "integrity" "sha1-GXxsxmnvKo3F57TZfuTgksPrDVs="
   "resolved" "http://r.npm.sankuai.com/chokidar/download/chokidar-3.6.0.tgz"
   "version" "3.6.0"
@@ -1141,56 +516,6 @@
     "readdirp" "~3.6.0"
   optionalDependencies:
     "fsevents" "~2.3.2"
-
-"chrome-trace-event@^1.0.2":
-  "integrity" "sha1-Bb/9f/koRlCTMUcIyTvfqb0fD1s="
-  "resolved" "http://r.npm.sankuai.com/chrome-trace-event/download/chrome-trace-event-1.0.4.tgz"
-  "version" "1.0.4"
-
-"cli-cursor@^3.1.0":
-  "integrity" "sha1-JkMFp65JDR0Dvwybp8kl0XU68wc="
-  "resolved" "http://r.npm.sankuai.com/cli-cursor/download/cli-cursor-3.1.0.tgz"
-  "version" "3.1.0"
-  dependencies:
-    "restore-cursor" "^3.1.0"
-
-"cli-spinners@^2.5.0":
-  "integrity" "sha1-F3Oo9LnE1qwxVj31Oz/B15Ri/kE="
-  "resolved" "http://r.npm.sankuai.com/cli-spinners/download/cli-spinners-2.9.2.tgz"
-  "version" "2.9.2"
-
-"cli-table3@0.6.5":
-  "integrity" "sha1-ATuRNRdic5wWqVZ8IaBGMuRJvy8="
-  "resolved" "http://r.npm.sankuai.com/cli-table3/download/cli-table3-0.6.5.tgz"
-  "version" "0.6.5"
-  dependencies:
-    "string-width" "^4.2.0"
-  optionalDependencies:
-    "@colors/colors" "1.5.0"
-
-"cli-width@^3.0.0":
-  "integrity" "sha1-ovSEN6LKqaIkNueUvwceyeYc7fY="
-  "resolved" "http://r.npm.sankuai.com/cli-width/download/cli-width-3.0.0.tgz"
-  "version" "3.0.0"
-
-"cli-width@^4.1.0":
-  "integrity" "sha1-QtqsQdPCVO84rYrAN2chMBc2kcU="
-  "resolved" "http://r.npm.sankuai.com/cli-width/download/cli-width-4.1.0.tgz"
-  "version" "4.1.0"
-
-"cliui@^8.0.1":
-  "integrity" "sha1-DASwddsCy/5g3I5s8vVIaxo2CKo="
-  "resolved" "http://r.npm.sankuai.com/cliui/download/cliui-8.0.1.tgz"
-  "version" "8.0.1"
-  dependencies:
-    "string-width" "^4.2.0"
-    "strip-ansi" "^6.0.1"
-    "wrap-ansi" "^7.0.0"
-
-"clone@^1.0.2":
-  "integrity" "sha1-2jCcwmPfFZlMaIypAheco8fNfH4="
-  "resolved" "http://r.npm.sankuai.com/clone/download/clone-1.0.4.tgz"
-  "version" "1.0.4"
 
 "clsx@^1.1.1":
   "integrity" "sha1-DdxKIKVJtZyTpBFrsm9SlMoX3BI="
@@ -1209,13 +534,6 @@
   "resolved" "http://r.npm.sankuai.com/color-name/download/color-name-1.1.4.tgz"
   "version" "1.1.4"
 
-"combined-stream@^1.0.8":
-  "integrity" "sha1-w9RaizT9cwYxoRCoolIGgrMdWn8="
-  "resolved" "http://r.npm.sankuai.com/combined-stream/download/combined-stream-1.0.8.tgz"
-  "version" "1.0.8"
-  dependencies:
-    "delayed-stream" "~1.0.0"
-
 "comma-separated-tokens@^2.0.0":
   "integrity" "sha1-TonJRYrLYbyP7xn0UplzsjkoOe4="
   "resolved" "http://r.npm.sankuai.com/comma-separated-tokens/download/comma-separated-tokens-2.0.3.tgz"
@@ -1226,111 +544,15 @@
   "resolved" "http://r.npm.sankuai.com/commander/download/commander-2.20.3.tgz"
   "version" "2.20.3"
 
-"commander@^4.0.0", "commander@4.1.1":
+"commander@^4.0.0":
   "integrity" "sha1-n9YCvZNilOnp70aj9NaWQESxgGg="
   "resolved" "http://r.npm.sankuai.com/commander/download/commander-4.1.1.tgz"
   "version" "4.1.1"
-
-"comment-json@4.2.5":
-  "integrity" "sha1-SC4IX3WcJwS2C8b5f1W4wBvEHnA="
-  "resolved" "http://r.npm.sankuai.com/comment-json/download/comment-json-4.2.5.tgz"
-  "version" "4.2.5"
-  dependencies:
-    "array-timsort" "^1.0.3"
-    "core-util-is" "^1.0.3"
-    "esprima" "^4.0.1"
-    "has-own-prop" "^2.0.0"
-    "repeat-string" "^1.6.1"
-
-"concat-map@0.0.1":
-  "integrity" "sha1-2Klr13/Wjfd5OnMDajug1UBdR3s="
-  "resolved" "http://r.npm.sankuai.com/concat-map/download/concat-map-0.0.1.tgz"
-  "version" "0.0.1"
-
-"concat-stream@^1.5.2":
-  "integrity" "sha1-kEvfGUzTEi/Gdcd/xKw9T/D9GjQ="
-  "resolved" "http://r.npm.sankuai.com/concat-stream/download/concat-stream-1.6.2.tgz"
-  "version" "1.6.2"
-  dependencies:
-    "buffer-from" "^1.0.0"
-    "inherits" "^2.0.3"
-    "readable-stream" "^2.2.2"
-    "typedarray" "^0.0.6"
-
-"concurrently@^8.2.2":
-  "integrity" "sha1-NTFBmFwZjPpeSj75AILDNrWFF4Q="
-  "resolved" "http://r.npm.sankuai.com/concurrently/download/concurrently-8.2.2.tgz"
-  "version" "8.2.2"
-  dependencies:
-    "chalk" "^4.1.2"
-    "date-fns" "^2.30.0"
-    "lodash" "^4.17.21"
-    "rxjs" "^7.8.1"
-    "shell-quote" "^1.8.1"
-    "spawn-command" "0.0.2"
-    "supports-color" "^8.1.1"
-    "tree-kill" "^1.2.2"
-    "yargs" "^17.7.2"
-
-"consola@^2.15.0":
-  "integrity" "sha1-LhH5jWpL5x/3LgvfB70j4Sy2FVA="
-  "resolved" "http://r.npm.sankuai.com/consola/download/consola-2.15.3.tgz"
-  "version" "2.15.3"
-
-"content-disposition@0.5.4":
-  "integrity" "sha1-i4K076yCUSoCuwsdzsnSxejrW/4="
-  "resolved" "http://r.npm.sankuai.com/content-disposition/download/content-disposition-0.5.4.tgz"
-  "version" "0.5.4"
-  dependencies:
-    "safe-buffer" "5.2.1"
-
-"content-type@~1.0.4", "content-type@~1.0.5":
-  "integrity" "sha1-i3cxYmVtHRCGeEyPI6VM5tc9eRg="
-  "resolved" "http://r.npm.sankuai.com/content-type/download/content-type-1.0.5.tgz"
-  "version" "1.0.5"
 
 "convert-source-map@^2.0.0":
   "integrity" "sha1-S1YPZJ/E6RjdCrdc9JYei8iC2Co="
   "resolved" "http://r.npm.sankuai.com/convert-source-map/download/convert-source-map-2.0.0.tgz"
   "version" "2.0.0"
-
-"cookie-signature@1.0.6":
-  "integrity" "sha1-4wOogrNCzD7oylE6eZmXNNqzriw="
-  "resolved" "http://r.npm.sankuai.com/cookie-signature/download/cookie-signature-1.0.6.tgz"
-  "version" "1.0.6"
-
-"cookie@~0.7.2":
-  "integrity" "sha1-VWNpxHKiupEPKXmJG1JrNDYjftc="
-  "resolved" "http://r.npm.sankuai.com/cookie/download/cookie-0.7.2.tgz"
-  "version" "0.7.2"
-
-"cookie@0.7.1":
-  "integrity" "sha1-L3PEIULV1c9xMQp0/ErmFnDl28k="
-  "resolved" "http://r.npm.sankuai.com/cookie/download/cookie-0.7.1.tgz"
-  "version" "0.7.1"
-
-"core-util-is@^1.0.3", "core-util-is@~1.0.0":
-  "integrity" "sha1-pgQtNjTCsn6TKPg3uWX6yDgI24U="
-  "resolved" "http://r.npm.sankuai.com/core-util-is/download/core-util-is-1.0.3.tgz"
-  "version" "1.0.3"
-
-"cors@~2.8.5", "cors@2.8.5":
-  "integrity" "sha1-6sEdpRWS3Ya58G9uesKTs9+HXSk="
-  "resolved" "http://r.npm.sankuai.com/cors/download/cors-2.8.5.tgz"
-  "version" "2.8.5"
-  dependencies:
-    "object-assign" "^4"
-    "vary" "^1"
-
-"cosmiconfig@^8.2.0":
-  "integrity" "sha1-Bgorhx1m26bIU46hEYuhrBb1+uM="
-  "resolved" "http://r.npm.sankuai.com/cosmiconfig/download/cosmiconfig-8.3.6.tgz"
-  "version" "8.3.6"
-  dependencies:
-    "import-fresh" "^3.3.0"
-    "js-yaml" "^4.1.0"
-    "parse-json" "^5.2.0"
-    "path-type" "^4.0.0"
 
 "cross-spawn@^7.0.0":
   "integrity" "sha1-ilj+ePANzXDDcEUXWd+/rwPo7p8="
@@ -1350,13 +572,6 @@
   "integrity" "sha1-2A/ylNEU+w5qxQD7+FtgE31+/4E="
   "resolved" "http://r.npm.sankuai.com/csstype/download/csstype-3.1.3.tgz"
   "version" "3.1.3"
-
-"date-fns@^2.30.0":
-  "integrity" "sha1-82fmRIOf9XiU7GrEgN5AyuSw9NA="
-  "resolved" "http://r.npm.sankuai.com/date-fns/download/date-fns-2.30.0.tgz"
-  "version" "2.30.0"
-  dependencies:
-    "@babel/runtime" "^7.21.0"
 
 "debug@^4.0.0":
   "integrity" "sha1-Kz8q6i/+t3ZHdGAmc3fchxD6uoo="
@@ -1379,20 +594,6 @@
   dependencies:
     "ms" "^2.1.3"
 
-"debug@~4.3.1", "debug@~4.3.2", "debug@~4.3.4":
-  "integrity" "sha1-h5RbQVGgEddtlaGY1xEchlw2ClI="
-  "resolved" "http://r.npm.sankuai.com/debug/download/debug-4.3.7.tgz"
-  "version" "4.3.7"
-  dependencies:
-    "ms" "^2.1.3"
-
-"debug@2.6.9":
-  "integrity" "sha1-XRKFFd8TT/Mn6QpMk/Tgd6U2NB8="
-  "resolved" "http://r.npm.sankuai.com/debug/download/debug-2.6.9.tgz"
-  "version" "2.6.9"
-  dependencies:
-    "ms" "2.0.0"
-
 "decode-named-character-reference@^1.0.0":
   "integrity" "sha1-2quslpCHTDlMgeQWKgMEs12CTw4="
   "resolved" "http://r.npm.sankuai.com/decode-named-character-reference/download/decode-named-character-reference-1.0.2.tgz"
@@ -1400,46 +601,10 @@
   dependencies:
     "character-entities" "^2.0.0"
 
-"deepmerge@^4.2.2":
-  "integrity" "sha1-RLXyFHzTsA1LVhN2hZZvJv0l3Uo="
-  "resolved" "http://r.npm.sankuai.com/deepmerge/download/deepmerge-4.3.1.tgz"
-  "version" "4.3.1"
-
-"defaults@^1.0.3":
-  "integrity" "sha1-sLAgYsHiqmL/XZUo8PmLqpCXjXo="
-  "resolved" "http://r.npm.sankuai.com/defaults/download/defaults-1.0.4.tgz"
-  "version" "1.0.4"
-  dependencies:
-    "clone" "^1.0.2"
-
-"define-data-property@^1.1.4":
-  "integrity" "sha1-iU3BQbt9MGCuQ2b2oBB+aPvkjF4="
-  "resolved" "http://r.npm.sankuai.com/define-data-property/download/define-data-property-1.1.4.tgz"
-  "version" "1.1.4"
-  dependencies:
-    "es-define-property" "^1.0.0"
-    "es-errors" "^1.3.0"
-    "gopd" "^1.0.1"
-
-"delayed-stream@~1.0.0":
-  "integrity" "sha1-3zrhmayt+31ECqrgsp4icrJOxhk="
-  "resolved" "http://r.npm.sankuai.com/delayed-stream/download/delayed-stream-1.0.0.tgz"
-  "version" "1.0.0"
-
-"depd@2.0.0":
-  "integrity" "sha1-tpYWPMdXVg0JzyLMj60Vcbeedt8="
-  "resolved" "http://r.npm.sankuai.com/depd/download/depd-2.0.0.tgz"
-  "version" "2.0.0"
-
 "dequal@^2.0.0":
   "integrity" "sha1-JkQhTxmX057Q7g7OcjNUkKesZ74="
   "resolved" "http://r.npm.sankuai.com/dequal/download/dequal-2.0.3.tgz"
   "version" "2.0.3"
-
-"destroy@1.2.0":
-  "integrity" "sha1-SANzVQmti+VSk0xn32FPlOZvoBU="
-  "resolved" "http://r.npm.sankuai.com/destroy/download/destroy-1.2.0.tgz"
-  "version" "1.2.0"
 
 "devlop@^1.0.0", "devlop@^1.1.0":
   "integrity" "sha1-TbfCyk3G4Og0wwvnDJS7yXbccBg="
@@ -1458,24 +623,10 @@
   "resolved" "http://r.npm.sankuai.com/dlv/download/dlv-1.1.3.tgz"
   "version" "1.1.3"
 
-"dunder-proto@^1.0.1":
-  "integrity" "sha1-165mfh3INIL4tw/Q9u78UNow9Yo="
-  "resolved" "http://r.npm.sankuai.com/dunder-proto/download/dunder-proto-1.0.1.tgz"
-  "version" "1.0.1"
-  dependencies:
-    "call-bind-apply-helpers" "^1.0.1"
-    "es-errors" "^1.3.0"
-    "gopd" "^1.2.0"
-
 "eastasianwidth@^0.2.0":
   "integrity" "sha1-aWzi7Aqg5uqTo5f/zySqeEDIJ8s="
   "resolved" "http://r.npm.sankuai.com/eastasianwidth/download/eastasianwidth-0.2.0.tgz"
   "version" "0.2.0"
-
-"ee-first@1.1.1":
-  "integrity" "sha1-WQxhFWsK4vTwJVcyoViyZrxWsh0="
-  "resolved" "http://r.npm.sankuai.com/ee-first/download/ee-first-1.1.1.tgz"
-  "version" "1.1.1"
 
 "electron-to-chromium@^1.5.73":
   "integrity" "sha1-XEpHRMeefIWxh631FgJkrBMMd28="
@@ -1491,94 +642,6 @@
   "integrity" "sha1-hAyIA7DYBH9P8M+WMXazLU7z7XI="
   "resolved" "http://r.npm.sankuai.com/emoji-regex/download/emoji-regex-9.2.2.tgz"
   "version" "9.2.2"
-
-"encodeurl@~1.0.2":
-  "integrity" "sha1-rT/0yG7C0CkyL1oCw6mmBslbP1k="
-  "resolved" "http://r.npm.sankuai.com/encodeurl/download/encodeurl-1.0.2.tgz"
-  "version" "1.0.2"
-
-"encodeurl@~2.0.0":
-  "integrity" "sha1-e46omAd9fkCdOsRUdOo46vCFelg="
-  "resolved" "http://r.npm.sankuai.com/encodeurl/download/encodeurl-2.0.0.tgz"
-  "version" "2.0.0"
-
-"engine.io-client@~6.6.1":
-  "integrity" "sha1-4KCeHJDv/l1iZNocVtcoGZjx5Qs="
-  "resolved" "http://r.npm.sankuai.com/engine.io-client/download/engine.io-client-6.6.2.tgz"
-  "version" "6.6.2"
-  dependencies:
-    "@socket.io/component-emitter" "~3.1.0"
-    "debug" "~4.3.1"
-    "engine.io-parser" "~5.2.1"
-    "ws" "~8.17.1"
-    "xmlhttprequest-ssl" "~2.1.1"
-
-"engine.io-parser@~5.2.1":
-  "integrity" "sha1-ANxbl7HyM6I8k5jQIJUEz1+U2S8="
-  "resolved" "http://r.npm.sankuai.com/engine.io-parser/download/engine.io-parser-5.2.3.tgz"
-  "version" "5.2.3"
-
-"engine.io@~6.6.0":
-  "integrity" "sha1-Comj5rbB1LDCoqY3SV58FJ7I2O4="
-  "resolved" "http://r.npm.sankuai.com/engine.io/download/engine.io-6.6.4.tgz"
-  "version" "6.6.4"
-  dependencies:
-    "@types/cors" "^2.8.12"
-    "@types/node" ">=10.0.0"
-    "accepts" "~1.3.4"
-    "base64id" "2.0.0"
-    "cookie" "~0.7.2"
-    "cors" "~2.8.5"
-    "debug" "~4.3.1"
-    "engine.io-parser" "~5.2.1"
-    "ws" "~8.17.1"
-
-"enhanced-resolve@^5.17.1", "enhanced-resolve@^5.7.0":
-  "integrity" "sha1-coqwgvi3toNt5R8WN6q107lWj68="
-  "resolved" "http://r.npm.sankuai.com/enhanced-resolve/download/enhanced-resolve-5.18.1.tgz"
-  "version" "5.18.1"
-  dependencies:
-    "graceful-fs" "^4.2.4"
-    "tapable" "^2.2.0"
-
-"error-ex@^1.3.1":
-  "integrity" "sha1-tKxAZIEH/c3PriQvQovqihTU8b8="
-  "resolved" "http://r.npm.sankuai.com/error-ex/download/error-ex-1.3.2.tgz"
-  "version" "1.3.2"
-  dependencies:
-    "is-arrayish" "^0.2.1"
-
-"es-define-property@^1.0.0", "es-define-property@^1.0.1":
-  "integrity" "sha1-mD6y+aZyTpMD9hrd8BHHLgngsPo="
-  "resolved" "http://r.npm.sankuai.com/es-define-property/download/es-define-property-1.0.1.tgz"
-  "version" "1.0.1"
-
-"es-errors@^1.3.0":
-  "integrity" "sha1-BfdaJdq5jk+x3NXhRywFRtUFfI8="
-  "resolved" "http://r.npm.sankuai.com/es-errors/download/es-errors-1.3.0.tgz"
-  "version" "1.3.0"
-
-"es-module-lexer@^1.2.1":
-  "integrity" "sha1-2kn1h/2eaO4kBP5OJWwMfTqBviE="
-  "resolved" "http://r.npm.sankuai.com/es-module-lexer/download/es-module-lexer-1.6.0.tgz"
-  "version" "1.6.0"
-
-"es-object-atoms@^1.0.0":
-  "integrity" "sha1-HE8sSDcydZfOadLKGQp/3RcjOME="
-  "resolved" "http://r.npm.sankuai.com/es-object-atoms/download/es-object-atoms-1.1.1.tgz"
-  "version" "1.1.1"
-  dependencies:
-    "es-errors" "^1.3.0"
-
-"es-set-tostringtag@^2.1.0":
-  "integrity" "sha1-8x274MGDsAptJutjJcgQwP0YvU0="
-  "resolved" "http://r.npm.sankuai.com/es-set-tostringtag/download/es-set-tostringtag-2.1.0.tgz"
-  "version" "2.1.0"
-  dependencies:
-    "es-errors" "^1.3.0"
-    "get-intrinsic" "^1.2.6"
-    "has-tostringtag" "^1.0.2"
-    "hasown" "^2.0.2"
 
 "esbuild@^0.21.3":
   "integrity" "sha1-nKMBsSCSKVm3ZjYNisgw2g0CmX0="
@@ -1609,121 +672,20 @@
     "@esbuild/win32-ia32" "0.21.5"
     "@esbuild/win32-x64" "0.21.5"
 
-"escalade@^3.1.1", "escalade@^3.2.0":
+"escalade@^3.2.0":
   "integrity" "sha1-ARo/aYVroYnf+n3I/M6Z0qh5A+U="
   "resolved" "http://r.npm.sankuai.com/escalade/download/escalade-3.2.0.tgz"
   "version" "3.2.0"
-
-"escape-html@~1.0.3":
-  "integrity" "sha1-Aljq5NPQwJdN4cFpGI7wBR0dGYg="
-  "resolved" "http://r.npm.sankuai.com/escape-html/download/escape-html-1.0.3.tgz"
-  "version" "1.0.3"
-
-"escape-string-regexp@^1.0.5":
-  "integrity" "sha1-G2HAViGQqN/2rjuyzwIAyhMLhtQ="
-  "resolved" "http://r.npm.sankuai.com/escape-string-regexp/download/escape-string-regexp-1.0.5.tgz"
-  "version" "1.0.5"
-
-"eslint-scope@5.1.1":
-  "integrity" "sha1-54blmmbLkrP2wfsNUIqrF0hI9Iw="
-  "resolved" "http://r.npm.sankuai.com/eslint-scope/download/eslint-scope-5.1.1.tgz"
-  "version" "5.1.1"
-  dependencies:
-    "esrecurse" "^4.3.0"
-    "estraverse" "^4.1.1"
-
-"esprima@^4.0.1":
-  "integrity" "sha1-E7BM2z5sXRnfkatph6hpVhmwqnE="
-  "resolved" "http://r.npm.sankuai.com/esprima/download/esprima-4.0.1.tgz"
-  "version" "4.0.1"
-
-"esrecurse@^4.3.0":
-  "integrity" "sha1-eteWTWeauyi+5yzsY3WLHF0smSE="
-  "resolved" "http://r.npm.sankuai.com/esrecurse/download/esrecurse-4.3.0.tgz"
-  "version" "4.3.0"
-  dependencies:
-    "estraverse" "^5.2.0"
-
-"estraverse@^4.1.1":
-  "integrity" "sha1-OYrT88WiSUi+dyXoPRGn3ijNvR0="
-  "resolved" "http://r.npm.sankuai.com/estraverse/download/estraverse-4.3.0.tgz"
-  "version" "4.3.0"
-
-"estraverse@^5.2.0":
-  "integrity" "sha1-LupSkHAvJquP5TcDcP+GyWXSESM="
-  "resolved" "http://r.npm.sankuai.com/estraverse/download/estraverse-5.3.0.tgz"
-  "version" "5.3.0"
 
 "estree-util-is-identifier-name@^3.0.0":
   "integrity" "sha1-C170xP8TUIs03NAez6lF9h/OXb0="
   "resolved" "http://r.npm.sankuai.com/estree-util-is-identifier-name/download/estree-util-is-identifier-name-3.0.0.tgz"
   "version" "3.0.0"
 
-"etag@~1.8.1":
-  "integrity" "sha1-Qa4u62XvpiJorr/qg6x9eSmbCIc="
-  "resolved" "http://r.npm.sankuai.com/etag/download/etag-1.8.1.tgz"
-  "version" "1.8.1"
-
-"events@^3.2.0":
-  "integrity" "sha1-Mala0Kkk4tLEGagTrrLE6HjqdAA="
-  "resolved" "http://r.npm.sankuai.com/events/download/events-3.3.0.tgz"
-  "version" "3.3.0"
-
-"express@4.21.2":
-  "integrity" "sha1-zyUOSDYhdOrWzqSlZqvvAWLB7DI="
-  "resolved" "http://r.npm.sankuai.com/express/download/express-4.21.2.tgz"
-  "version" "4.21.2"
-  dependencies:
-    "accepts" "~1.3.8"
-    "array-flatten" "1.1.1"
-    "body-parser" "1.20.3"
-    "content-disposition" "0.5.4"
-    "content-type" "~1.0.4"
-    "cookie" "0.7.1"
-    "cookie-signature" "1.0.6"
-    "debug" "2.6.9"
-    "depd" "2.0.0"
-    "encodeurl" "~2.0.0"
-    "escape-html" "~1.0.3"
-    "etag" "~1.8.1"
-    "finalhandler" "1.3.1"
-    "fresh" "0.5.2"
-    "http-errors" "2.0.0"
-    "merge-descriptors" "1.0.3"
-    "methods" "~1.1.2"
-    "on-finished" "2.4.1"
-    "parseurl" "~1.3.3"
-    "path-to-regexp" "0.1.12"
-    "proxy-addr" "~2.0.7"
-    "qs" "6.13.0"
-    "range-parser" "~1.2.1"
-    "safe-buffer" "5.2.1"
-    "send" "0.19.0"
-    "serve-static" "1.16.2"
-    "setprototypeof" "1.2.0"
-    "statuses" "2.0.1"
-    "type-is" "~1.6.18"
-    "utils-merge" "1.0.1"
-    "vary" "~1.1.2"
-
 "extend@^3.0.0":
   "integrity" "sha1-+LETa0Bx+9jrFAr/hYsQGewpFfo="
   "resolved" "http://r.npm.sankuai.com/extend/download/extend-3.0.2.tgz"
   "version" "3.0.2"
-
-"external-editor@^3.0.3", "external-editor@^3.1.0":
-  "integrity" "sha1-ywP3QL764D6k0oPK7SdBqD8zVJU="
-  "resolved" "http://r.npm.sankuai.com/external-editor/download/external-editor-3.1.0.tgz"
-  "version" "3.1.0"
-  dependencies:
-    "chardet" "^0.7.0"
-    "iconv-lite" "^0.4.24"
-    "tmp" "^0.0.33"
-
-"fast-deep-equal@^3.1.1", "fast-deep-equal@^3.1.3":
-  "integrity" "sha1-On1WtVnWy8PrUSMlJE5hmmXGxSU="
-  "resolved" "http://r.npm.sankuai.com/fast-deep-equal/download/fast-deep-equal-3.1.3.tgz"
-  "version" "3.1.3"
 
 "fast-glob@^3.3.2":
   "integrity" "sha1-0G1YXOjbqQoWsFBcVDw8z7OuuBg="
@@ -1736,34 +698,12 @@
     "merge2" "^1.3.0"
     "micromatch" "^4.0.8"
 
-"fast-json-stable-stringify@^2.0.0":
-  "integrity" "sha1-h0v2nG9ATCtdmcSBNBOZ/VWJJjM="
-  "resolved" "http://r.npm.sankuai.com/fast-json-stable-stringify/download/fast-json-stable-stringify-2.1.0.tgz"
-  "version" "2.1.0"
-
-"fast-safe-stringify@2.1.1":
-  "integrity" "sha1-xAaoO25w2eNc47MKgRQd8wrrqIQ="
-  "resolved" "http://r.npm.sankuai.com/fast-safe-stringify/download/fast-safe-stringify-2.1.1.tgz"
-  "version" "2.1.1"
-
-"fast-uri@^3.0.1":
-  "integrity" "sha1-iPEwt3z66iN41Wv5cN6iElemh0g="
-  "resolved" "http://r.npm.sankuai.com/fast-uri/download/fast-uri-3.0.6.tgz"
-  "version" "3.0.6"
-
 "fastq@^1.6.0":
   "integrity" "sha1-qCxrfCu05Edm2GXweZd4X+z9y4k="
   "resolved" "http://r.npm.sankuai.com/fastq/download/fastq-1.19.0.tgz"
   "version" "1.19.0"
   dependencies:
     "reusify" "^1.0.4"
-
-"figures@^3.0.0", "figures@^3.2.0":
-  "integrity" "sha1-YlwYvSk8YE3EqN2y/r8MiDQXRq8="
-  "resolved" "http://r.npm.sankuai.com/figures/download/figures-3.2.0.tgz"
-  "version" "3.2.0"
-  dependencies:
-    "escape-string-regexp" "^1.0.5"
 
 "fill-range@^7.1.1":
   "integrity" "sha1-RCZdPKwH4+p9wkdRY4BkN1SgUpI="
@@ -1772,24 +712,6 @@
   dependencies:
     "to-regex-range" "^5.0.1"
 
-"finalhandler@1.3.1":
-  "integrity" "sha1-DFdfHR0yTd0do1rX7OPffRkIgBk="
-  "resolved" "http://r.npm.sankuai.com/finalhandler/download/finalhandler-1.3.1.tgz"
-  "version" "1.3.1"
-  dependencies:
-    "debug" "2.6.9"
-    "encodeurl" "~2.0.0"
-    "escape-html" "~1.0.3"
-    "on-finished" "2.4.1"
-    "parseurl" "~1.3.3"
-    "statuses" "2.0.1"
-    "unpipe" "~1.0.0"
-
-"follow-redirects@^1.15.6":
-  "integrity" "sha1-pgT6EORDv5jKlCKNnuvMLoosjuE="
-  "resolved" "http://r.npm.sankuai.com/follow-redirects/download/follow-redirects-1.15.9.tgz"
-  "version" "1.15.9"
-
 "foreground-child@^3.1.0":
   "integrity" "sha1-CshkTAbkMUOfhWHbjs8pp7VRnHc="
   "resolved" "http://r.npm.sankuai.com/foreground-child/download/foreground-child-3.3.0.tgz"
@@ -1797,58 +719,6 @@
   dependencies:
     "cross-spawn" "^7.0.0"
     "signal-exit" "^4.0.1"
-
-"fork-ts-checker-webpack-plugin@9.0.2":
-  "integrity" "sha1-wSxZCVeDfrArApFpAtzz5nX9Kx4="
-  "resolved" "http://r.npm.sankuai.com/fork-ts-checker-webpack-plugin/download/fork-ts-checker-webpack-plugin-9.0.2.tgz"
-  "version" "9.0.2"
-  dependencies:
-    "@babel/code-frame" "^7.16.7"
-    "chalk" "^4.1.2"
-    "chokidar" "^3.5.3"
-    "cosmiconfig" "^8.2.0"
-    "deepmerge" "^4.2.2"
-    "fs-extra" "^10.0.0"
-    "memfs" "^3.4.1"
-    "minimatch" "^3.0.4"
-    "node-abort-controller" "^3.0.1"
-    "schema-utils" "^3.1.1"
-    "semver" "^7.3.5"
-    "tapable" "^2.2.1"
-
-"form-data@^4.0.0":
-  "integrity" "sha1-Ncq73TDDznPessQtPI0+2cpReUw="
-  "resolved" "http://r.npm.sankuai.com/form-data/download/form-data-4.0.2.tgz"
-  "version" "4.0.2"
-  dependencies:
-    "asynckit" "^0.4.0"
-    "combined-stream" "^1.0.8"
-    "es-set-tostringtag" "^2.1.0"
-    "mime-types" "^2.1.12"
-
-"forwarded@0.2.0":
-  "integrity" "sha1-ImmTZCiq1MFcfr6XeahL8LKoGBE="
-  "resolved" "http://r.npm.sankuai.com/forwarded/download/forwarded-0.2.0.tgz"
-  "version" "0.2.0"
-
-"fresh@0.5.2":
-  "integrity" "sha1-PYyt2Q2XZWn6g1qx+OSyOhBWBac="
-  "resolved" "http://r.npm.sankuai.com/fresh/download/fresh-0.5.2.tgz"
-  "version" "0.5.2"
-
-"fs-extra@^10.0.0":
-  "integrity" "sha1-Aoc8+8QITd4SfqpfmQXu8jJdGr8="
-  "resolved" "http://r.npm.sankuai.com/fs-extra/download/fs-extra-10.1.0.tgz"
-  "version" "10.1.0"
-  dependencies:
-    "graceful-fs" "^4.2.0"
-    "jsonfile" "^6.0.1"
-    "universalify" "^2.0.0"
-
-"fs-monkey@^1.0.4":
-  "integrity" "sha1-jq0IKVPojZks8/+ET6qQeyZ1baI="
-  "resolved" "http://r.npm.sankuai.com/fs-monkey/download/fs-monkey-1.0.6.tgz"
-  "version" "1.0.6"
 
 "fsevents@~2.3.2", "fsevents@~2.3.3":
   "integrity" "sha1-ysZAd4XQNnWipeGlMFxpezR9kNY="
@@ -1865,35 +735,6 @@
   "resolved" "http://r.npm.sankuai.com/gensync/download/gensync-1.0.0-beta.2.tgz"
   "version" "1.0.0-beta.2"
 
-"get-caller-file@^2.0.5":
-  "integrity" "sha1-T5RBKoLbMvNuOwuXQfipf+sDH34="
-  "resolved" "http://r.npm.sankuai.com/get-caller-file/download/get-caller-file-2.0.5.tgz"
-  "version" "2.0.5"
-
-"get-intrinsic@^1.2.4", "get-intrinsic@^1.2.5", "get-intrinsic@^1.2.6":
-  "integrity" "sha1-3PyzPTJy4V9EXRUSS8CiFhibkEQ="
-  "resolved" "http://r.npm.sankuai.com/get-intrinsic/download/get-intrinsic-1.2.7.tgz"
-  "version" "1.2.7"
-  dependencies:
-    "call-bind-apply-helpers" "^1.0.1"
-    "es-define-property" "^1.0.1"
-    "es-errors" "^1.3.0"
-    "es-object-atoms" "^1.0.0"
-    "function-bind" "^1.1.2"
-    "get-proto" "^1.0.0"
-    "gopd" "^1.2.0"
-    "has-symbols" "^1.1.0"
-    "hasown" "^2.0.2"
-    "math-intrinsics" "^1.1.0"
-
-"get-proto@^1.0.0":
-  "integrity" "sha1-FQs/J0OGnvPoUewMSdFbHRTQDuE="
-  "resolved" "http://r.npm.sankuai.com/get-proto/download/get-proto-1.0.1.tgz"
-  "version" "1.0.1"
-  dependencies:
-    "dunder-proto" "^1.0.1"
-    "es-object-atoms" "^1.0.0"
-
 "glob-parent@^5.1.2", "glob-parent@~5.1.2":
   "integrity" "sha1-hpgyxYA0/mikCTwX3BXoNA2EAcQ="
   "resolved" "http://r.npm.sankuai.com/glob-parent/download/glob-parent-5.1.2.tgz"
@@ -1908,12 +749,7 @@
   dependencies:
     "is-glob" "^4.0.3"
 
-"glob-to-regexp@^0.4.1":
-  "integrity" "sha1-x1KXCHyFG5pXi9IX3VmpL1n+VG4="
-  "resolved" "http://r.npm.sankuai.com/glob-to-regexp/download/glob-to-regexp-0.4.1.tgz"
-  "version" "0.4.1"
-
-"glob@^10.3.10", "glob@10.4.5":
+"glob@^10.3.10":
   "integrity" "sha1-9NnwuQ/9urCcnXf18ptCYlF7CVY="
   "resolved" "http://r.npm.sankuai.com/glob/download/glob-10.4.5.tgz"
   "version" "10.4.5"
@@ -1929,45 +765,6 @@
   "integrity" "sha1-q4eVM4hooLq9hSV1gBjCp+uVxC4="
   "resolved" "http://r.npm.sankuai.com/globals/download/globals-11.12.0.tgz"
   "version" "11.12.0"
-
-"gopd@^1.0.1", "gopd@^1.2.0":
-  "integrity" "sha1-ifVrghe9vIgCvSmd9tfxCB1+UaE="
-  "resolved" "http://r.npm.sankuai.com/gopd/download/gopd-1.2.0.tgz"
-  "version" "1.2.0"
-
-"graceful-fs@^4.1.2", "graceful-fs@^4.1.6", "graceful-fs@^4.2.0", "graceful-fs@^4.2.11", "graceful-fs@^4.2.4":
-  "integrity" "sha1-QYPk6L8Iu24Fu7L30uDI9xLKQOM="
-  "resolved" "http://r.npm.sankuai.com/graceful-fs/download/graceful-fs-4.2.11.tgz"
-  "version" "4.2.11"
-
-"has-flag@^4.0.0":
-  "integrity" "sha1-lEdx/ZyByBJlxNaUGGDaBrtZR5s="
-  "resolved" "http://r.npm.sankuai.com/has-flag/download/has-flag-4.0.0.tgz"
-  "version" "4.0.0"
-
-"has-own-prop@^2.0.0":
-  "integrity" "sha1-8PldWPZYBPXSGNsyVju4W44EF68="
-  "resolved" "http://r.npm.sankuai.com/has-own-prop/download/has-own-prop-2.0.0.tgz"
-  "version" "2.0.0"
-
-"has-property-descriptors@^1.0.2":
-  "integrity" "sha1-lj7X0HHce/XwhMW/vg0bYiJYaFQ="
-  "resolved" "http://r.npm.sankuai.com/has-property-descriptors/download/has-property-descriptors-1.0.2.tgz"
-  "version" "1.0.2"
-  dependencies:
-    "es-define-property" "^1.0.0"
-
-"has-symbols@^1.0.3", "has-symbols@^1.1.0":
-  "integrity" "sha1-/JxqeDoISVHQuXH+EBjegTcHozg="
-  "resolved" "http://r.npm.sankuai.com/has-symbols/download/has-symbols-1.1.0.tgz"
-  "version" "1.1.0"
-
-"has-tostringtag@^1.0.2":
-  "integrity" "sha1-LNxC1AvvLltO6rfAGnPFTOerWrw="
-  "resolved" "http://r.npm.sankuai.com/has-tostringtag/download/has-tostringtag-1.0.2.tgz"
-  "version" "1.0.2"
-  dependencies:
-    "has-symbols" "^1.0.3"
 
 "hasown@^2.0.2":
   "integrity" "sha1-AD6vkb563DcuhOxZ3DclLO24AAM="
@@ -2009,93 +806,10 @@
   "resolved" "http://r.npm.sankuai.com/html-url-attributes/download/html-url-attributes-3.0.1.tgz"
   "version" "3.0.1"
 
-"http-errors@2.0.0":
-  "integrity" "sha1-t3dKFIbvc892Z6ya4IWMASxXudM="
-  "resolved" "http://r.npm.sankuai.com/http-errors/download/http-errors-2.0.0.tgz"
-  "version" "2.0.0"
-  dependencies:
-    "depd" "2.0.0"
-    "inherits" "2.0.4"
-    "setprototypeof" "1.2.0"
-    "statuses" "2.0.1"
-    "toidentifier" "1.0.1"
-
-"iconv-lite@^0.4.24", "iconv-lite@0.4.24":
-  "integrity" "sha1-ICK0sl+93CHS9SSXSkdKr+czkIs="
-  "resolved" "http://r.npm.sankuai.com/iconv-lite/download/iconv-lite-0.4.24.tgz"
-  "version" "0.4.24"
-  dependencies:
-    "safer-buffer" ">= 2.1.2 < 3"
-
-"ieee754@^1.1.13":
-  "integrity" "sha1-jrehCmP/8l0VpXsAFYbRd9Gw01I="
-  "resolved" "http://r.npm.sankuai.com/ieee754/download/ieee754-1.2.1.tgz"
-  "version" "1.2.1"
-
-"import-fresh@^3.3.0":
-  "integrity" "sha1-nOy1ZQPAraHydB271lRuSxO1fM8="
-  "resolved" "http://r.npm.sankuai.com/import-fresh/download/import-fresh-3.3.1.tgz"
-  "version" "3.3.1"
-  dependencies:
-    "parent-module" "^1.0.0"
-    "resolve-from" "^4.0.0"
-
-"inherits@^2.0.3", "inherits@^2.0.4", "inherits@~2.0.3", "inherits@2.0.4":
-  "integrity" "sha1-D6LGT5MpF8NDOg3tVTY6rjdBa3w="
-  "resolved" "http://r.npm.sankuai.com/inherits/download/inherits-2.0.4.tgz"
-  "version" "2.0.4"
-
 "inline-style-parser@0.2.4":
   "integrity" "sha1-9K9f5y5hKDn81FPZiaWGVm1pXyI="
   "resolved" "http://r.npm.sankuai.com/inline-style-parser/download/inline-style-parser-0.2.4.tgz"
   "version" "0.2.4"
-
-"inquirer@8.2.6":
-  "integrity" "sha1-czt0iIGV2NQApnrDMgEbX65epWI="
-  "resolved" "http://r.npm.sankuai.com/inquirer/download/inquirer-8.2.6.tgz"
-  "version" "8.2.6"
-  dependencies:
-    "ansi-escapes" "^4.2.1"
-    "chalk" "^4.1.1"
-    "cli-cursor" "^3.1.0"
-    "cli-width" "^3.0.0"
-    "external-editor" "^3.0.3"
-    "figures" "^3.0.0"
-    "lodash" "^4.17.21"
-    "mute-stream" "0.0.8"
-    "ora" "^5.4.1"
-    "run-async" "^2.4.0"
-    "rxjs" "^7.5.5"
-    "string-width" "^4.1.0"
-    "strip-ansi" "^6.0.0"
-    "through" "^2.3.6"
-    "wrap-ansi" "^6.0.1"
-
-"inquirer@9.2.15":
-  "integrity" "sha1-ITWjYZCm5ckvXSBeCvH+o2udNJI="
-  "resolved" "http://r.npm.sankuai.com/inquirer/download/inquirer-9.2.15.tgz"
-  "version" "9.2.15"
-  dependencies:
-    "@ljharb/through" "^2.3.12"
-    "ansi-escapes" "^4.3.2"
-    "chalk" "^5.3.0"
-    "cli-cursor" "^3.1.0"
-    "cli-width" "^4.1.0"
-    "external-editor" "^3.1.0"
-    "figures" "^3.2.0"
-    "lodash" "^4.17.21"
-    "mute-stream" "1.0.0"
-    "ora" "^5.4.1"
-    "run-async" "^3.0.0"
-    "rxjs" "^7.8.1"
-    "string-width" "^4.2.3"
-    "strip-ansi" "^6.0.1"
-    "wrap-ansi" "^6.2.0"
-
-"ipaddr.js@1.9.1":
-  "integrity" "sha1-v/OFQ+64mEglB5/zoqjmy9RngbM="
-  "resolved" "http://r.npm.sankuai.com/ipaddr.js/download/ipaddr.js-1.9.1.tgz"
-  "version" "1.9.1"
 
 "is-alphabetical@^2.0.0":
   "integrity" "sha1-AQcgU+p8EDbfPH0Zptqux/GeeJs="
@@ -2109,11 +823,6 @@
   dependencies:
     "is-alphabetical" "^2.0.0"
     "is-decimal" "^2.0.0"
-
-"is-arrayish@^0.2.1":
-  "integrity" "sha1-d8mYQFJ6qOyxqLppe4BkWnqSap0="
-  "resolved" "http://r.npm.sankuai.com/is-arrayish/download/is-arrayish-0.2.1.tgz"
-  "version" "0.2.1"
 
 "is-binary-path@~2.1.0":
   "integrity" "sha1-6h9/O4DwZCNug0cPhsCcJU+0Wwk="
@@ -2156,11 +865,6 @@
   "resolved" "http://r.npm.sankuai.com/is-hexadecimal/download/is-hexadecimal-2.0.1.tgz"
   "version" "2.0.1"
 
-"is-interactive@^1.0.0":
-  "integrity" "sha1-zqbmrlyHCnsKAAQHC3tYfgJSkS4="
-  "resolved" "http://r.npm.sankuai.com/is-interactive/download/is-interactive-1.0.0.tgz"
-  "version" "1.0.0"
-
 "is-number@^7.0.0":
   "integrity" "sha1-dTU0W4lnNNX4DE0GxQlVUnoU8Ss="
   "resolved" "http://r.npm.sankuai.com/is-number/download/is-number-7.0.0.tgz"
@@ -2171,25 +875,10 @@
   "resolved" "http://r.npm.sankuai.com/is-plain-obj/download/is-plain-obj-4.1.0.tgz"
   "version" "4.1.0"
 
-"is-unicode-supported@^0.1.0":
-  "integrity" "sha1-PybHaoCVk7Ur+i7LVxDtJ3m1Iqc="
-  "resolved" "http://r.npm.sankuai.com/is-unicode-supported/download/is-unicode-supported-0.1.0.tgz"
-  "version" "0.1.0"
-
-"isarray@~1.0.0":
-  "integrity" "sha1-u5NdSFgsuhaMBoNJV6VKPgcSTxE="
-  "resolved" "http://r.npm.sankuai.com/isarray/download/isarray-1.0.0.tgz"
-  "version" "1.0.0"
-
 "isexe@^2.0.0":
   "integrity" "sha1-6PvzdNxVb/iUehDcsFctYz8s+hA="
   "resolved" "http://r.npm.sankuai.com/isexe/download/isexe-2.0.0.tgz"
   "version" "2.0.0"
-
-"iterare@1.2.1":
-  "integrity" "sha1-E5xAD/c2NpDjOr/6M8u6iSDwAEI="
-  "resolved" "http://r.npm.sankuai.com/iterare/download/iterare-1.2.1.tgz"
-  "version" "1.2.1"
 
 "jackspeak@^3.1.2":
   "integrity" "sha1-iDOp2Jq0rN5hiJQr0cU7Y5DtWoo="
@@ -2199,15 +888,6 @@
     "@isaacs/cliui" "^8.0.2"
   optionalDependencies:
     "@pkgjs/parseargs" "^0.11.0"
-
-"jest-worker@^27.4.5":
-  "integrity" "sha1-jRRvCQDolzsQa29zzB6ajLhvjbA="
-  "resolved" "http://r.npm.sankuai.com/jest-worker/download/jest-worker-27.5.1.tgz"
-  "version" "27.5.1"
-  dependencies:
-    "@types/node" "*"
-    "merge-stream" "^2.0.0"
-    "supports-color" "^8.0.0"
 
 "jiti@^1.21.6":
   "integrity" "sha1-ndgQQ0JKPShFixk9ll8NGKIwC6k="
@@ -2219,56 +899,15 @@
   "resolved" "http://r.npm.sankuai.com/js-tokens/download/js-tokens-4.0.0.tgz"
   "version" "4.0.0"
 
-"js-yaml@^4.1.0":
-  "integrity" "sha1-wftl+PUBeQHN0slRhkuhhFihBgI="
-  "resolved" "http://r.npm.sankuai.com/js-yaml/download/js-yaml-4.1.0.tgz"
-  "version" "4.1.0"
-  dependencies:
-    "argparse" "^2.0.1"
-
 "jsesc@^3.0.2":
   "integrity" "sha1-dNM1ojT2ftGZB/2t+sfM+dQJgl0="
   "resolved" "http://r.npm.sankuai.com/jsesc/download/jsesc-3.1.0.tgz"
   "version" "3.1.0"
 
-"json-parse-even-better-errors@^2.3.0", "json-parse-even-better-errors@^2.3.1":
-  "integrity" "sha1-fEeAWpQxmSjgV3dAXcEuH3pO4C0="
-  "resolved" "http://r.npm.sankuai.com/json-parse-even-better-errors/download/json-parse-even-better-errors-2.3.1.tgz"
-  "version" "2.3.1"
-
-"json-schema-traverse@^0.4.1":
-  "integrity" "sha1-afaofZUTq4u4/mO9sJecRI5oRmA="
-  "resolved" "http://r.npm.sankuai.com/json-schema-traverse/download/json-schema-traverse-0.4.1.tgz"
-  "version" "0.4.1"
-
-"json-schema-traverse@^1.0.0":
-  "integrity" "sha1-rnvLNlard6c7pcSb9lTzjmtoYOI="
-  "resolved" "http://r.npm.sankuai.com/json-schema-traverse/download/json-schema-traverse-1.0.0.tgz"
-  "version" "1.0.0"
-
-"json5@^2.2.2", "json5@^2.2.3":
+"json5@^2.2.3":
   "integrity" "sha1-eM1vGhm9wStz21rQxh79ZsHikoM="
   "resolved" "http://r.npm.sankuai.com/json5/download/json5-2.2.3.tgz"
   "version" "2.2.3"
-
-"jsonc-parser@3.2.1":
-  "integrity" "sha1-AxkEVxzPkp12cO6MVHVFCByzfxo="
-  "resolved" "http://r.npm.sankuai.com/jsonc-parser/download/jsonc-parser-3.2.1.tgz"
-  "version" "3.2.1"
-
-"jsonc-parser@3.3.1":
-  "integrity" "sha1-8qUktPf9EePXkeVZl3rWC5i3mLQ="
-  "resolved" "http://r.npm.sankuai.com/jsonc-parser/download/jsonc-parser-3.3.1.tgz"
-  "version" "3.3.1"
-
-"jsonfile@^6.0.1":
-  "integrity" "sha1-vFWyY0eTxnnsZAMJTrE2mKbsCq4="
-  "resolved" "http://r.npm.sankuai.com/jsonfile/download/jsonfile-6.1.0.tgz"
-  "version" "6.1.0"
-  dependencies:
-    "universalify" "^2.0.0"
-  optionalDependencies:
-    "graceful-fs" "^4.1.6"
 
 "lilconfig@^3.0.0", "lilconfig@^3.1.3":
   "integrity" "sha1-obz9Ylf5WFv1rhTO7rt7VZAl5MQ="
@@ -2279,24 +918,6 @@
   "integrity" "sha1-7KKE910pZQeTCdwK2SVauy68FjI="
   "resolved" "http://r.npm.sankuai.com/lines-and-columns/download/lines-and-columns-1.2.4.tgz"
   "version" "1.2.4"
-
-"loader-runner@^4.2.0":
-  "integrity" "sha1-wbShY7mfYUgwNTsWdV5xSawjFOE="
-  "resolved" "http://r.npm.sankuai.com/loader-runner/download/loader-runner-4.3.0.tgz"
-  "version" "4.3.0"
-
-"lodash@^4.17.21":
-  "integrity" "sha1-Z5WRxWTDv/quhFTPCz3zcMPWkRw="
-  "resolved" "http://r.npm.sankuai.com/lodash/download/lodash-4.17.21.tgz"
-  "version" "4.17.21"
-
-"log-symbols@^4.1.0":
-  "integrity" "sha1-P727lbRoOsn8eFER55LlWNSr1QM="
-  "resolved" "http://r.npm.sankuai.com/log-symbols/download/log-symbols-4.1.0.tgz"
-  "version" "4.1.0"
-  dependencies:
-    "chalk" "^4.1.0"
-    "is-unicode-supported" "^0.1.0"
 
 "longest-streak@^3.0.0":
   "integrity" "sha1-YvpnzZWHQqFXSvnzmGY2QQLZDNQ="
@@ -2321,18 +942,6 @@
   "version" "5.1.1"
   dependencies:
     "yallist" "^3.0.2"
-
-"magic-string@0.30.8":
-  "integrity" "sha1-FOhiQkbSvtunDVRiqpmsloGERhM="
-  "resolved" "http://r.npm.sankuai.com/magic-string/download/magic-string-0.30.8.tgz"
-  "version" "0.30.8"
-  dependencies:
-    "@jridgewell/sourcemap-codec" "^1.4.15"
-
-"math-intrinsics@^1.1.0":
-  "integrity" "sha1-oN10voHiqlwvJ+Zc4oNgXuTit/k="
-  "resolved" "http://r.npm.sankuai.com/math-intrinsics/download/math-intrinsics-1.1.0.tgz"
-  "version" "1.1.0"
 
 "mdast-util-from-markdown@^2.0.0":
   "integrity" "sha1-SFA5DKfPF0E6m5oPvvzRvA60Fgo="
@@ -2439,37 +1048,10 @@
   dependencies:
     "@types/mdast" "^4.0.0"
 
-"media-typer@0.3.0":
-  "integrity" "sha1-hxDXrwqmJvj/+hzgAWhUUmMlV0g="
-  "resolved" "http://r.npm.sankuai.com/media-typer/download/media-typer-0.3.0.tgz"
-  "version" "0.3.0"
-
-"memfs@^3.4.1":
-  "integrity" "sha1-16IRD4b3ndlQqLbfbVe8mEqhhfY="
-  "resolved" "http://r.npm.sankuai.com/memfs/download/memfs-3.6.0.tgz"
-  "version" "3.6.0"
-  dependencies:
-    "fs-monkey" "^1.0.4"
-
-"merge-descriptors@1.0.3":
-  "integrity" "sha1-2AMZpl88eTU1Hlz9rI+TGFBNvtU="
-  "resolved" "http://r.npm.sankuai.com/merge-descriptors/download/merge-descriptors-1.0.3.tgz"
-  "version" "1.0.3"
-
-"merge-stream@^2.0.0":
-  "integrity" "sha1-UoI2KaFN0AyXcPtq1H3GMQ8sH2A="
-  "resolved" "http://r.npm.sankuai.com/merge-stream/download/merge-stream-2.0.0.tgz"
-  "version" "2.0.0"
-
 "merge2@^1.3.0":
   "integrity" "sha1-Q2iJL4hekHRVpv19xVwMnUBJkK4="
   "resolved" "http://r.npm.sankuai.com/merge2/download/merge2-1.4.1.tgz"
   "version" "1.4.1"
-
-"methods@~1.1.2":
-  "integrity" "sha1-VSmk1nZUE07cxSZmVoNbD4Ua/O4="
-  "resolved" "http://r.npm.sankuai.com/methods/download/methods-1.1.2.tgz"
-  "version" "1.1.2"
 
 "micromark-core-commonmark@^2.0.0":
   "integrity" "sha1-akW7sTnhJrP4s2GhBxHMx8bhXpM="
@@ -2673,35 +1255,6 @@
     "braces" "^3.0.3"
     "picomatch" "^2.3.1"
 
-"mime-db@1.52.0":
-  "integrity" "sha1-u6vNwChZ9JhzAchW4zh85exDv3A="
-  "resolved" "http://r.npm.sankuai.com/mime-db/download/mime-db-1.52.0.tgz"
-  "version" "1.52.0"
-
-"mime-types@^2.1.12", "mime-types@^2.1.27", "mime-types@~2.1.24", "mime-types@~2.1.34":
-  "integrity" "sha1-OBqHG2KnNEUGYK497uRIE/cNlZo="
-  "resolved" "http://r.npm.sankuai.com/mime-types/download/mime-types-2.1.35.tgz"
-  "version" "2.1.35"
-  dependencies:
-    "mime-db" "1.52.0"
-
-"mime@1.6.0":
-  "integrity" "sha1-Ms2eXGRVO9WNGaVor0Uqz/BJgbE="
-  "resolved" "http://r.npm.sankuai.com/mime/download/mime-1.6.0.tgz"
-  "version" "1.6.0"
-
-"mimic-fn@^2.1.0":
-  "integrity" "sha1-ftLCzMyvhNP/y3pptXcR/CCDQBs="
-  "resolved" "http://r.npm.sankuai.com/mimic-fn/download/mimic-fn-2.1.0.tgz"
-  "version" "2.1.0"
-
-"minimatch@^3.0.4":
-  "integrity" "sha1-Gc0ZS/0+Qo8EmnCBfAONiatL41s="
-  "resolved" "http://r.npm.sankuai.com/minimatch/download/minimatch-3.1.2.tgz"
-  "version" "3.1.2"
-  dependencies:
-    "brace-expansion" "^1.1.7"
-
 "minimatch@^9.0.4":
   "integrity" "sha1-10+d1rV9g9jpjPuCEzsDl4vJKeU="
   "resolved" "http://r.npm.sankuai.com/minimatch/download/minimatch-9.0.5.tgz"
@@ -2709,55 +1262,15 @@
   dependencies:
     "brace-expansion" "^2.0.1"
 
-"minimist@^1.2.6":
-  "integrity" "sha1-waRk52kzAuCCoHXO4MBXdBrEdyw="
-  "resolved" "http://r.npm.sankuai.com/minimist/download/minimist-1.2.8.tgz"
-  "version" "1.2.8"
-
 "minipass@^5.0.0 || ^6.0.2 || ^7.0.0", "minipass@^7.1.2":
   "integrity" "sha1-k6libOXl5mvU24aEnnUV6SNApwc="
   "resolved" "http://r.npm.sankuai.com/minipass/download/minipass-7.1.2.tgz"
   "version" "7.1.2"
 
-"mkdirp@^0.5.4":
-  "integrity" "sha1-fe8D0kMtyuS6HWEURcSDlgYiVfY="
-  "resolved" "http://r.npm.sankuai.com/mkdirp/download/mkdirp-0.5.6.tgz"
-  "version" "0.5.6"
-  dependencies:
-    "minimist" "^1.2.6"
-
-"ms@^2.1.3", "ms@2.1.3":
+"ms@^2.1.3":
   "integrity" "sha1-V0yBOM4dK1hh8LRFedut1gxmFbI="
   "resolved" "http://r.npm.sankuai.com/ms/download/ms-2.1.3.tgz"
   "version" "2.1.3"
-
-"ms@2.0.0":
-  "integrity" "sha1-VgiurfwAvmwpAd9fmGF4jeDVl8g="
-  "resolved" "http://r.npm.sankuai.com/ms/download/ms-2.0.0.tgz"
-  "version" "2.0.0"
-
-"multer@1.4.4-lts.1":
-  "integrity" "sha1-JBAPcBpGESEc+ulK4W6jm7MU4E0="
-  "resolved" "http://r.npm.sankuai.com/multer/download/multer-1.4.4-lts.1.tgz"
-  "version" "1.4.4-lts.1"
-  dependencies:
-    "append-field" "^1.0.0"
-    "busboy" "^1.0.0"
-    "concat-stream" "^1.5.2"
-    "mkdirp" "^0.5.4"
-    "object-assign" "^4.1.1"
-    "type-is" "^1.6.4"
-    "xtend" "^4.0.0"
-
-"mute-stream@0.0.8":
-  "integrity" "sha1-FjDEKyJR/4HiooPelqVJfqkuXg0="
-  "resolved" "http://r.npm.sankuai.com/mute-stream/download/mute-stream-0.0.8.tgz"
-  "version" "0.0.8"
-
-"mute-stream@1.0.0":
-  "integrity" "sha1-4xvZ/mLwrtI1IKpDJOpmcVMeAT4="
-  "resolved" "http://r.npm.sankuai.com/mute-stream/download/mute-stream-1.0.0.tgz"
-  "version" "1.0.0"
 
 "mz@^2.7.0":
   "integrity" "sha1-lQCAV6Vsr63CvGPd5/n/aVWUjjI="
@@ -2773,35 +1286,6 @@
   "resolved" "http://r.npm.sankuai.com/nanoid/download/nanoid-3.3.8.tgz"
   "version" "3.3.8"
 
-"negotiator@0.6.3":
-  "integrity" "sha1-WOMjpy/twNb5zU0x/kn1FHlZDM0="
-  "resolved" "http://r.npm.sankuai.com/negotiator/download/negotiator-0.6.3.tgz"
-  "version" "0.6.3"
-
-"neo-async@^2.6.2":
-  "integrity" "sha1-tKr7k+OustgXTKU88WOrfXMIMF8="
-  "resolved" "http://r.npm.sankuai.com/neo-async/download/neo-async-2.6.2.tgz"
-  "version" "2.6.2"
-
-"node-abort-controller@^3.0.1":
-  "integrity" "sha1-qUN36WSpo3rDl22EjLXHZYM7hUg="
-  "resolved" "http://r.npm.sankuai.com/node-abort-controller/download/node-abort-controller-3.1.1.tgz"
-  "version" "3.1.1"
-
-"node-emoji@1.11.0":
-  "integrity" "sha1-aaAVDmlG4vEV6dfqTfeXHiYoMBw="
-  "resolved" "http://r.npm.sankuai.com/node-emoji/download/node-emoji-1.11.0.tgz"
-  "version" "1.11.0"
-  dependencies:
-    "lodash" "^4.17.21"
-
-"node-fetch@^2.6.1":
-  "integrity" "sha1-0PD6bj4twdJ+/NitmdVQvalNGH0="
-  "resolved" "http://r.npm.sankuai.com/node-fetch/download/node-fetch-2.7.0.tgz"
-  "version" "2.7.0"
-  dependencies:
-    "whatwg-url" "^5.0.0"
-
 "node-releases@^2.0.19":
   "integrity" "sha1-nkRaUpUJUexNF32EOvNwtBHK8xQ="
   "resolved" "http://r.npm.sankuai.com/node-releases/download/node-releases-2.0.19.tgz"
@@ -2812,66 +1296,20 @@
   "resolved" "http://r.npm.sankuai.com/normalize-path/download/normalize-path-3.0.0.tgz"
   "version" "3.0.0"
 
-"object-assign@^4", "object-assign@^4.0.1", "object-assign@^4.1.1":
+"object-assign@^4.0.1", "object-assign@^4.1.1":
   "integrity" "sha1-IQmtx5ZYh8/AXLvUQsrIv7s2CGM="
   "resolved" "http://r.npm.sankuai.com/object-assign/download/object-assign-4.1.1.tgz"
   "version" "4.1.1"
 
-"object-hash@^3.0.0", "object-hash@3.0.0":
+"object-hash@^3.0.0":
   "integrity" "sha1-c/l/dT57r/wOLMnW4HkHl0Ssguk="
   "resolved" "http://r.npm.sankuai.com/object-hash/download/object-hash-3.0.0.tgz"
   "version" "3.0.0"
-
-"object-inspect@^1.13.3":
-  "integrity" "sha1-g3UmXiG8IND6WCwi4bE0hdbgAhM="
-  "resolved" "http://r.npm.sankuai.com/object-inspect/download/object-inspect-1.13.4.tgz"
-  "version" "1.13.4"
-
-"on-finished@2.4.1":
-  "integrity" "sha1-WMjEQRblSEWtV/FKsQsDUzGErD8="
-  "resolved" "http://r.npm.sankuai.com/on-finished/download/on-finished-2.4.1.tgz"
-  "version" "2.4.1"
-  dependencies:
-    "ee-first" "1.1.1"
-
-"onetime@^5.1.0":
-  "integrity" "sha1-0Oluu1awdHbfHdnEgG5SN5hcpF4="
-  "resolved" "http://r.npm.sankuai.com/onetime/download/onetime-5.1.2.tgz"
-  "version" "5.1.2"
-  dependencies:
-    "mimic-fn" "^2.1.0"
-
-"ora@^5.4.1", "ora@5.4.1":
-  "integrity" "sha1-GyZ4Qmr0rEpQkAjl5KyemVnbnhg="
-  "resolved" "http://r.npm.sankuai.com/ora/download/ora-5.4.1.tgz"
-  "version" "5.4.1"
-  dependencies:
-    "bl" "^4.1.0"
-    "chalk" "^4.1.0"
-    "cli-cursor" "^3.1.0"
-    "cli-spinners" "^2.5.0"
-    "is-interactive" "^1.0.0"
-    "is-unicode-supported" "^0.1.0"
-    "log-symbols" "^4.1.0"
-    "strip-ansi" "^6.0.0"
-    "wcwidth" "^1.0.1"
-
-"os-tmpdir@~1.0.2":
-  "integrity" "sha1-u+Z0BseaqFxc/sdm/lc0VV36EnQ="
-  "resolved" "http://r.npm.sankuai.com/os-tmpdir/download/os-tmpdir-1.0.2.tgz"
-  "version" "1.0.2"
 
 "package-json-from-dist@^1.0.0":
   "integrity" "sha1-TxRxoBCCeob5TP2bByfjbSZ95QU="
   "resolved" "http://r.npm.sankuai.com/package-json-from-dist/download/package-json-from-dist-1.0.1.tgz"
   "version" "1.0.1"
-
-"parent-module@^1.0.0":
-  "integrity" "sha1-aR0nCeeMefrjoVZiJFLQB2LKqqI="
-  "resolved" "http://r.npm.sankuai.com/parent-module/download/parent-module-1.0.1.tgz"
-  "version" "1.0.1"
-  dependencies:
-    "callsites" "^3.0.0"
 
 "parse-entities@^4.0.0":
   "integrity" "sha1-YdRvXtKOTuYundxD1rAQGIRD8Vk="
@@ -2885,21 +1323,6 @@
     "is-alphanumerical" "^2.0.0"
     "is-decimal" "^2.0.0"
     "is-hexadecimal" "^2.0.0"
-
-"parse-json@^5.2.0":
-  "integrity" "sha1-x2/Gbe5UIxyWKyK8yKcs8vmXU80="
-  "resolved" "http://r.npm.sankuai.com/parse-json/download/parse-json-5.2.0.tgz"
-  "version" "5.2.0"
-  dependencies:
-    "@babel/code-frame" "^7.0.0"
-    "error-ex" "^1.3.1"
-    "json-parse-even-better-errors" "^2.3.0"
-    "lines-and-columns" "^1.1.6"
-
-"parseurl@~1.3.3":
-  "integrity" "sha1-naGee+6NEt/wUT7Vt2lXeTvC6NQ="
-  "resolved" "http://r.npm.sankuai.com/parseurl/download/parseurl-1.3.3.tgz"
-  "version" "1.3.3"
 
 "path-key@^3.1.0":
   "integrity" "sha1-WB9q3mWMu6ZaDTOA3ndTKVBU83U="
@@ -2919,21 +1342,6 @@
     "lru-cache" "^10.2.0"
     "minipass" "^5.0.0 || ^6.0.2 || ^7.0.0"
 
-"path-to-regexp@0.1.12":
-  "integrity" "sha1-1eGhLkeKl21DLvPFjVNLmSMWS7c="
-  "resolved" "http://r.npm.sankuai.com/path-to-regexp/download/path-to-regexp-0.1.12.tgz"
-  "version" "0.1.12"
-
-"path-to-regexp@3.3.0":
-  "integrity" "sha1-9/MdMuhRjCZghitkRBS21cY6YRs="
-  "resolved" "http://r.npm.sankuai.com/path-to-regexp/download/path-to-regexp-3.3.0.tgz"
-  "version" "3.3.0"
-
-"path-type@^4.0.0":
-  "integrity" "sha1-hO0BwKe6OAr+CdkKjBgNzZ0DBDs="
-  "resolved" "http://r.npm.sankuai.com/path-type/download/path-type-4.0.0.tgz"
-  "version" "4.0.0"
-
 "picocolors@^1.0.0", "picocolors@^1.1.1":
   "integrity" "sha1-PTIa8+q5ObCDyPkpodEs2oHCa2s="
   "resolved" "http://r.npm.sankuai.com/picocolors/download/picocolors-1.1.1.tgz"
@@ -2944,11 +1352,6 @@
   "resolved" "http://r.npm.sankuai.com/picomatch/download/picomatch-2.3.1.tgz"
   "version" "2.3.1"
 
-"picomatch@4.0.1":
-  "integrity" "sha1-aMJsiDc5nlgZ7c5IWQQS6gfxegc="
-  "resolved" "http://r.npm.sankuai.com/picomatch/download/picomatch-4.0.1.tgz"
-  "version" "4.0.1"
-
 "pify@^2.3.0":
   "integrity" "sha1-7RQaasBDqEnqWISY59yosVMw6Qw="
   "resolved" "http://r.npm.sankuai.com/pify/download/pify-2.3.0.tgz"
@@ -2958,11 +1361,6 @@
   "integrity" "sha1-MBiuMuz8/2wpuiJny/IRZqwfNrk="
   "resolved" "http://r.npm.sankuai.com/pirates/download/pirates-4.0.6.tgz"
   "version" "4.0.6"
-
-"pluralize@8.0.0":
-  "integrity" "sha1-Gm+hajjRKhkB4DIPoBcFHFOc47E="
-  "resolved" "http://r.npm.sankuai.com/pluralize/download/pluralize-8.0.0.tgz"
-  "version" "8.0.0"
 
 "postcss-import@^15.1.0":
   "integrity" "sha1-QcZO2MwOI3NalpizJJ/9v3BK3HA="
@@ -3017,11 +1415,6 @@
     "picocolors" "^1.1.1"
     "source-map-js" "^1.2.1"
 
-"process-nextick-args@~2.0.0":
-  "integrity" "sha1-eCDZsWEgzFXKmud5JoCufbptf+I="
-  "resolved" "http://r.npm.sankuai.com/process-nextick-args/download/process-nextick-args-2.0.1.tgz"
-  "version" "2.0.1"
-
 "prop-types@^15.8.1":
   "integrity" "sha1-Z9h78aaU9IQ1zzMsJK8QIUoxQLU="
   "resolved" "http://r.npm.sankuai.com/prop-types/download/prop-types-15.8.1.tgz"
@@ -3036,57 +1429,10 @@
   "resolved" "http://r.npm.sankuai.com/property-information/download/property-information-6.5.0.tgz"
   "version" "6.5.0"
 
-"proxy-addr@~2.0.7":
-  "integrity" "sha1-8Z/mnOqzEe65S0LnDowgcPm6ECU="
-  "resolved" "http://r.npm.sankuai.com/proxy-addr/download/proxy-addr-2.0.7.tgz"
-  "version" "2.0.7"
-  dependencies:
-    "forwarded" "0.2.0"
-    "ipaddr.js" "1.9.1"
-
-"proxy-from-env@^1.1.0":
-  "integrity" "sha1-4QLxbKNVQkhldV0sno6k8k1Yw+I="
-  "resolved" "http://r.npm.sankuai.com/proxy-from-env/download/proxy-from-env-1.1.0.tgz"
-  "version" "1.1.0"
-
-"punycode@^2.1.0":
-  "integrity" "sha1-AnQi4vrsCyXhVJw+G9gwm5EztuU="
-  "resolved" "http://r.npm.sankuai.com/punycode/download/punycode-2.3.1.tgz"
-  "version" "2.3.1"
-
-"qs@6.13.0":
-  "integrity" "sha1-bKO9WEOffiRWVXmJl3h7DYilGQY="
-  "resolved" "http://r.npm.sankuai.com/qs/download/qs-6.13.0.tgz"
-  "version" "6.13.0"
-  dependencies:
-    "side-channel" "^1.0.6"
-
 "queue-microtask@^1.2.2":
   "integrity" "sha1-SSkii7xyTfrEPg77BYyve2z7YkM="
   "resolved" "http://r.npm.sankuai.com/queue-microtask/download/queue-microtask-1.2.3.tgz"
   "version" "1.2.3"
-
-"randombytes@^2.1.0":
-  "integrity" "sha1-32+ENy8CcNxlzfYpE0mrekc9Tyo="
-  "resolved" "http://r.npm.sankuai.com/randombytes/download/randombytes-2.1.0.tgz"
-  "version" "2.1.0"
-  dependencies:
-    "safe-buffer" "^5.1.0"
-
-"range-parser@~1.2.1":
-  "integrity" "sha1-PPNwI9GZ4cJNGlW4SADC8+ZGgDE="
-  "resolved" "http://r.npm.sankuai.com/range-parser/download/range-parser-1.2.1.tgz"
-  "version" "1.2.1"
-
-"raw-body@2.5.2":
-  "integrity" "sha1-mf69g7kOCJdQh+jx+UGaFJNmtoo="
-  "resolved" "http://r.npm.sankuai.com/raw-body/download/raw-body-2.5.2.tgz"
-  "version" "2.5.2"
-  dependencies:
-    "bytes" "3.1.2"
-    "http-errors" "2.0.0"
-    "iconv-lite" "0.4.24"
-    "unpipe" "1.0.0"
 
 "react-dom@^18.2.0", "react-dom@>= 16.3.0":
   "integrity" "sha1-wiZdeVEbV9R5s90/36UVNklMXLQ="
@@ -3144,44 +1490,12 @@
   dependencies:
     "pify" "^2.3.0"
 
-"readable-stream@^2.2.2":
-  "integrity" "sha1-kRJegEK7obmIf0k0X2J3Anzovps="
-  "resolved" "http://r.npm.sankuai.com/readable-stream/download/readable-stream-2.3.8.tgz"
-  "version" "2.3.8"
-  dependencies:
-    "core-util-is" "~1.0.0"
-    "inherits" "~2.0.3"
-    "isarray" "~1.0.0"
-    "process-nextick-args" "~2.0.0"
-    "safe-buffer" "~5.1.1"
-    "string_decoder" "~1.1.1"
-    "util-deprecate" "~1.0.1"
-
-"readable-stream@^3.4.0":
-  "integrity" "sha1-VqmzbqllwAxak+8x6xEaDxEFaWc="
-  "resolved" "http://r.npm.sankuai.com/readable-stream/download/readable-stream-3.6.2.tgz"
-  "version" "3.6.2"
-  dependencies:
-    "inherits" "^2.0.3"
-    "string_decoder" "^1.1.1"
-    "util-deprecate" "^1.0.1"
-
 "readdirp@~3.6.0":
   "integrity" "sha1-dKNwvYVxFuJFspzJc0DNQxoCpsc="
   "resolved" "http://r.npm.sankuai.com/readdirp/download/readdirp-3.6.0.tgz"
   "version" "3.6.0"
   dependencies:
     "picomatch" "^2.2.1"
-
-"reflect-metadata@^0.1.12 || ^0.2.0", "reflect-metadata@^0.2.2":
-  "integrity" "sha1-QAyEW2y6h6IfLGXErrFY9PpNnFs="
-  "resolved" "http://r.npm.sankuai.com/reflect-metadata/download/reflect-metadata-0.2.2.tgz"
-  "version" "0.2.2"
-
-"regenerator-runtime@^0.14.0":
-  "integrity" "sha1-NWreECY/aF3aElEAzYYsHbiVMn8="
-  "resolved" "http://r.npm.sankuai.com/regenerator-runtime/download/regenerator-runtime-0.14.1.tgz"
-  "version" "0.14.1"
 
 "remark-parse@^11.0.0":
   "integrity" "sha1-qmB0P8s36/awaSBOtNowTkDbRaE="
@@ -3204,26 +1518,6 @@
     "unified" "^11.0.0"
     "vfile" "^6.0.0"
 
-"repeat-string@^1.6.1":
-  "integrity" "sha1-jcrkcOHIirwtYA//Sndihtp15jc="
-  "resolved" "http://r.npm.sankuai.com/repeat-string/download/repeat-string-1.6.1.tgz"
-  "version" "1.6.1"
-
-"require-directory@^2.1.1":
-  "integrity" "sha1-jGStX9MNqxyXbiNE/+f3kqam30I="
-  "resolved" "http://r.npm.sankuai.com/require-directory/download/require-directory-2.1.1.tgz"
-  "version" "2.1.1"
-
-"require-from-string@^2.0.2":
-  "integrity" "sha1-iaf92TgmEmcxjq/hT5wy5ZjDaQk="
-  "resolved" "http://r.npm.sankuai.com/require-from-string/download/require-from-string-2.0.2.tgz"
-  "version" "2.0.2"
-
-"resolve-from@^4.0.0":
-  "integrity" "sha1-SrzYUq0y3Xuqv+m0DgCjbbXzkuY="
-  "resolved" "http://r.npm.sankuai.com/resolve-from/download/resolve-from-4.0.0.tgz"
-  "version" "4.0.0"
-
 "resolve@^1.1.7", "resolve@^1.22.8":
   "integrity" "sha1-tmPoP/sJu/I4aURza6roAwKbizk="
   "resolved" "http://r.npm.sankuai.com/resolve/download/resolve-1.22.10.tgz"
@@ -3232,14 +1526,6 @@
     "is-core-module" "^2.16.0"
     "path-parse" "^1.0.7"
     "supports-preserve-symlinks-flag" "^1.0.0"
-
-"restore-cursor@^3.1.0":
-  "integrity" "sha1-OfZ8VLOnpYzqUjbZXPADQjljH34="
-  "resolved" "http://r.npm.sankuai.com/restore-cursor/download/restore-cursor-3.1.0.tgz"
-  "version" "3.1.0"
-  dependencies:
-    "onetime" "^5.1.0"
-    "signal-exit" "^3.0.2"
 
 "reusify@^1.0.4":
   "integrity" "sha1-kNo4Kx4SbvwCFG6QhFqI2xKSXXY="
@@ -3274,44 +1560,12 @@
     "@rollup/rollup-win32-x64-msvc" "4.34.6"
     "fsevents" "~2.3.2"
 
-"run-async@^2.4.0":
-  "integrity" "sha1-hEDsz5nqPnC9QJ1JqriOEMGJpFU="
-  "resolved" "http://r.npm.sankuai.com/run-async/download/run-async-2.4.1.tgz"
-  "version" "2.4.1"
-
-"run-async@^3.0.0":
-  "integrity" "sha1-QqQy9tdsaJUiBYmEOE3yi+N52q0="
-  "resolved" "http://r.npm.sankuai.com/run-async/download/run-async-3.0.0.tgz"
-  "version" "3.0.0"
-
 "run-parallel@^1.1.9":
   "integrity" "sha1-ZtE2jae9+SHrnZW9GpIp5/IaQ+4="
   "resolved" "http://r.npm.sankuai.com/run-parallel/download/run-parallel-1.2.0.tgz"
   "version" "1.2.0"
   dependencies:
     "queue-microtask" "^1.2.2"
-
-"rxjs@^7.0.0", "rxjs@^7.1.0", "rxjs@^7.5.5", "rxjs@^7.8.1", "rxjs@7.8.1":
-  "integrity" "sha1-b289meqARCke/ZLnx/z1YsQFdUM="
-  "resolved" "http://r.npm.sankuai.com/rxjs/download/rxjs-7.8.1.tgz"
-  "version" "7.8.1"
-  dependencies:
-    "tslib" "^2.1.0"
-
-"safe-buffer@^5.1.0", "safe-buffer@~5.2.0", "safe-buffer@5.2.1":
-  "integrity" "sha1-Hq+fqb2x/dTsdfWPnNtOa3gn7sY="
-  "resolved" "http://r.npm.sankuai.com/safe-buffer/download/safe-buffer-5.2.1.tgz"
-  "version" "5.2.1"
-
-"safe-buffer@~5.1.0", "safe-buffer@~5.1.1":
-  "integrity" "sha1-mR7GnSluAxN0fVm9/St0XDX4go0="
-  "resolved" "http://r.npm.sankuai.com/safe-buffer/download/safe-buffer-5.1.2.tgz"
-  "version" "5.1.2"
-
-"safer-buffer@>= 2.1.2 < 3":
-  "integrity" "sha1-RPoWGwGHuVSd2Eu5GAL5vYOFzWo="
-  "resolved" "http://r.npm.sankuai.com/safer-buffer/download/safer-buffer-2.1.2.tgz"
-  "version" "2.1.2"
 
 "scheduler@^0.23.2":
   "integrity" "sha1-QUumSjsoKJLpRM8hCOzAeNEVzcM="
@@ -3320,87 +1574,10 @@
   dependencies:
     "loose-envify" "^1.1.0"
 
-"schema-utils@^3.1.1", "schema-utils@^3.2.0":
-  "integrity" "sha1-9QqIh3w8AWUqFbYirp6Xld96YP4="
-  "resolved" "http://r.npm.sankuai.com/schema-utils/download/schema-utils-3.3.0.tgz"
-  "version" "3.3.0"
-  dependencies:
-    "@types/json-schema" "^7.0.8"
-    "ajv" "^6.12.5"
-    "ajv-keywords" "^3.5.2"
-
-"schema-utils@^4.3.0":
-  "integrity" "sha1-O2afBPcf8t+1q6fOLVqdebNWIsA="
-  "resolved" "http://r.npm.sankuai.com/schema-utils/download/schema-utils-4.3.0.tgz"
-  "version" "4.3.0"
-  dependencies:
-    "@types/json-schema" "^7.0.9"
-    "ajv" "^8.9.0"
-    "ajv-formats" "^2.1.1"
-    "ajv-keywords" "^5.1.0"
-
 "semver@^6.3.1":
   "integrity" "sha1-VW0u+GiRRuRtzqS/3QlfNDTf/LQ="
   "resolved" "http://r.npm.sankuai.com/semver/download/semver-6.3.1.tgz"
   "version" "6.3.1"
-
-"semver@^7.3.5":
-  "integrity" "sha1-q9UJjYKxjGyB9gdP8mR/0+ciDJ8="
-  "resolved" "http://r.npm.sankuai.com/semver/download/semver-7.7.1.tgz"
-  "version" "7.7.1"
-
-"send@0.19.0":
-  "integrity" "sha1-u8WjiMjqbASJZwSdvqwOSj8J1/g="
-  "resolved" "http://r.npm.sankuai.com/send/download/send-0.19.0.tgz"
-  "version" "0.19.0"
-  dependencies:
-    "debug" "2.6.9"
-    "depd" "2.0.0"
-    "destroy" "1.2.0"
-    "encodeurl" "~1.0.2"
-    "escape-html" "~1.0.3"
-    "etag" "~1.8.1"
-    "fresh" "0.5.2"
-    "http-errors" "2.0.0"
-    "mime" "1.6.0"
-    "ms" "2.1.3"
-    "on-finished" "2.4.1"
-    "range-parser" "~1.2.1"
-    "statuses" "2.0.1"
-
-"serialize-javascript@^6.0.2":
-  "integrity" "sha1-3voeBVyDv21Z6oBdjahiJU62psI="
-  "resolved" "http://r.npm.sankuai.com/serialize-javascript/download/serialize-javascript-6.0.2.tgz"
-  "version" "6.0.2"
-  dependencies:
-    "randombytes" "^2.1.0"
-
-"serve-static@1.16.2":
-  "integrity" "sha1-tqU0PaR/a90mc4SL9FdUlB6AMpY="
-  "resolved" "http://r.npm.sankuai.com/serve-static/download/serve-static-1.16.2.tgz"
-  "version" "1.16.2"
-  dependencies:
-    "encodeurl" "~2.0.0"
-    "escape-html" "~1.0.3"
-    "parseurl" "~1.3.3"
-    "send" "0.19.0"
-
-"set-function-length@^1.2.2":
-  "integrity" "sha1-qscjFBmOrtl1z3eyw7a4gGleVEk="
-  "resolved" "http://r.npm.sankuai.com/set-function-length/download/set-function-length-1.2.2.tgz"
-  "version" "1.2.2"
-  dependencies:
-    "define-data-property" "^1.1.4"
-    "es-errors" "^1.3.0"
-    "function-bind" "^1.1.2"
-    "get-intrinsic" "^1.2.4"
-    "gopd" "^1.0.1"
-    "has-property-descriptors" "^1.0.2"
-
-"setprototypeof@1.2.0":
-  "integrity" "sha1-ZsmiSnP5/CjL5msJ/tPTPcrxtCQ="
-  "resolved" "http://r.npm.sankuai.com/setprototypeof/download/setprototypeof-1.2.0.tgz"
-  "version" "1.2.0"
 
 "shebang-command@^2.0.0":
   "integrity" "sha1-zNCvT4g1+9wmW4JGGq8MNmY/NOo="
@@ -3414,99 +1591,10 @@
   "resolved" "http://r.npm.sankuai.com/shebang-regex/download/shebang-regex-3.0.0.tgz"
   "version" "3.0.0"
 
-"shell-quote@^1.8.1":
-  "integrity" "sha1-0tg+BXlZ1T7CYTEenpuPUdyyk0o="
-  "resolved" "http://r.npm.sankuai.com/shell-quote/download/shell-quote-1.8.2.tgz"
-  "version" "1.8.2"
-
-"side-channel-list@^1.0.0":
-  "integrity" "sha1-EMtZhCYxFdO3oOM2WR4pCoMK+K0="
-  "resolved" "http://r.npm.sankuai.com/side-channel-list/download/side-channel-list-1.0.0.tgz"
-  "version" "1.0.0"
-  dependencies:
-    "es-errors" "^1.3.0"
-    "object-inspect" "^1.13.3"
-
-"side-channel-map@^1.0.1":
-  "integrity" "sha1-1rtrN5Asb+9RdOX1M/q0xzKib0I="
-  "resolved" "http://r.npm.sankuai.com/side-channel-map/download/side-channel-map-1.0.1.tgz"
-  "version" "1.0.1"
-  dependencies:
-    "call-bound" "^1.0.2"
-    "es-errors" "^1.3.0"
-    "get-intrinsic" "^1.2.5"
-    "object-inspect" "^1.13.3"
-
-"side-channel-weakmap@^1.0.2":
-  "integrity" "sha1-Ed2hnVNo5Azp7CvcH7DsvAeQ7Oo="
-  "resolved" "http://r.npm.sankuai.com/side-channel-weakmap/download/side-channel-weakmap-1.0.2.tgz"
-  "version" "1.0.2"
-  dependencies:
-    "call-bound" "^1.0.2"
-    "es-errors" "^1.3.0"
-    "get-intrinsic" "^1.2.5"
-    "object-inspect" "^1.13.3"
-    "side-channel-map" "^1.0.1"
-
-"side-channel@^1.0.6":
-  "integrity" "sha1-w/z/nE2pMnhIczNeyXZfqU/2a8k="
-  "resolved" "http://r.npm.sankuai.com/side-channel/download/side-channel-1.1.0.tgz"
-  "version" "1.1.0"
-  dependencies:
-    "es-errors" "^1.3.0"
-    "object-inspect" "^1.13.3"
-    "side-channel-list" "^1.0.0"
-    "side-channel-map" "^1.0.1"
-    "side-channel-weakmap" "^1.0.2"
-
-"signal-exit@^3.0.2":
-  "integrity" "sha1-qaF2f4r4QVURTqq9c/mSc8j1mtk="
-  "resolved" "http://r.npm.sankuai.com/signal-exit/download/signal-exit-3.0.7.tgz"
-  "version" "3.0.7"
-
 "signal-exit@^4.0.1":
   "integrity" "sha1-lSGIwcvVRgcOLdIND0HArgUwywQ="
   "resolved" "http://r.npm.sankuai.com/signal-exit/download/signal-exit-4.1.0.tgz"
   "version" "4.1.0"
-
-"socket.io-adapter@~2.5.2":
-  "integrity" "sha1-x6H5xwPXdWhEdRtv+av8F4BmQII="
-  "resolved" "http://r.npm.sankuai.com/socket.io-adapter/download/socket.io-adapter-2.5.5.tgz"
-  "version" "2.5.5"
-  dependencies:
-    "debug" "~4.3.4"
-    "ws" "~8.17.1"
-
-"socket.io-client@^4.7.2":
-  "integrity" "sha1-GUHsoTWlSQuUKB0DI/4qNfbykcs="
-  "resolved" "http://r.npm.sankuai.com/socket.io-client/download/socket.io-client-4.8.1.tgz"
-  "version" "4.8.1"
-  dependencies:
-    "@socket.io/component-emitter" "~3.1.0"
-    "debug" "~4.3.2"
-    "engine.io-client" "~6.6.1"
-    "socket.io-parser" "~4.2.4"
-
-"socket.io-parser@~4.2.4":
-  "integrity" "sha1-yAaWbPcnBgHkdGnd7sMPvf2kTIM="
-  "resolved" "http://r.npm.sankuai.com/socket.io-parser/download/socket.io-parser-4.2.4.tgz"
-  "version" "4.2.4"
-  dependencies:
-    "@socket.io/component-emitter" "~3.1.0"
-    "debug" "~4.3.1"
-
-"socket.io@4.8.1":
-  "integrity" "sha1-+g6v+WXMl/30JF6NR5RhhFn3VYo="
-  "resolved" "http://r.npm.sankuai.com/socket.io/download/socket.io-4.8.1.tgz"
-  "version" "4.8.1"
-  dependencies:
-    "accepts" "~1.3.4"
-    "base64id" "~2.0.0"
-    "cors" "~2.8.5"
-    "debug" "~4.3.2"
-    "engine.io" "~6.6.0"
-    "socket.io-adapter" "~2.5.2"
-    "socket.io-parser" "~4.2.4"
 
 "source-map-js@^1.2.1":
   "integrity" "sha1-HOVlD93YerwJnto33P8CTCZnrkY="
@@ -3526,44 +1614,10 @@
   "resolved" "http://r.npm.sankuai.com/source-map/download/source-map-0.6.1.tgz"
   "version" "0.6.1"
 
-"source-map@0.7.4":
-  "integrity" "sha1-qbvnBcnYhG9OCP9nZazw8bCJhlY="
-  "resolved" "http://r.npm.sankuai.com/source-map/download/source-map-0.7.4.tgz"
-  "version" "0.7.4"
-
 "space-separated-tokens@^2.0.0":
   "integrity" "sha1-Hs2dI1CjhEVyw/SjErzrAYNIhZ8="
   "resolved" "http://r.npm.sankuai.com/space-separated-tokens/download/space-separated-tokens-2.0.2.tgz"
   "version" "2.0.2"
-
-"spawn-command@0.0.2":
-  "integrity" "sha1-lUThpDygRfhTGqwaSMspva5iM44="
-  "resolved" "http://r.npm.sankuai.com/spawn-command/download/spawn-command-0.0.2.tgz"
-  "version" "0.0.2"
-
-"statuses@2.0.1":
-  "integrity" "sha1-VcsADM8dSHKL0jxoWgY5mM8aG2M="
-  "resolved" "http://r.npm.sankuai.com/statuses/download/statuses-2.0.1.tgz"
-  "version" "2.0.1"
-
-"streamsearch@^1.1.0":
-  "integrity" "sha1-QE3R4iR8qUr1VOhBqO8OqiONp2Q="
-  "resolved" "http://r.npm.sankuai.com/streamsearch/download/streamsearch-1.1.0.tgz"
-  "version" "1.1.0"
-
-"string_decoder@^1.1.1":
-  "integrity" "sha1-QvEUWUpGzxqOMLCoT1bHjD7awh4="
-  "resolved" "http://r.npm.sankuai.com/string_decoder/download/string_decoder-1.3.0.tgz"
-  "version" "1.3.0"
-  dependencies:
-    "safe-buffer" "~5.2.0"
-
-"string_decoder@~1.1.1":
-  "integrity" "sha1-nPFhG6YmhdcDCunkujQUnDrwP8g="
-  "resolved" "http://r.npm.sankuai.com/string_decoder/download/string_decoder-1.1.1.tgz"
-  "version" "1.1.1"
-  dependencies:
-    "safe-buffer" "~5.1.0"
 
 "string-width-cjs@npm:string-width@^4.2.0":
   "integrity" "sha1-JpxxF9J7Ba0uU2gwqOyJXvnG0BA="
@@ -3574,7 +1628,7 @@
     "is-fullwidth-code-point" "^3.0.0"
     "strip-ansi" "^6.0.1"
 
-"string-width@^4.1.0", "string-width@^4.2.0", "string-width@^4.2.3":
+"string-width@^4.1.0":
   "integrity" "sha1-JpxxF9J7Ba0uU2gwqOyJXvnG0BA="
   "resolved" "http://r.npm.sankuai.com/string-width/download/string-width-4.2.3.tgz"
   "version" "4.2.3"
@@ -3621,11 +1675,6 @@
   dependencies:
     "ansi-regex" "^6.0.1"
 
-"strip-bom@^3.0.0":
-  "integrity" "sha1-IzTBjpx1n3vdVv3vfprj1YjmjtM="
-  "resolved" "http://r.npm.sankuai.com/strip-bom/download/strip-bom-3.0.0.tgz"
-  "version" "3.0.0"
-
 "style-to-object@^1.0.0":
   "integrity" "sha1-Z6KbykfqpYfbGBGNaPnZWVXoEpI="
   "resolved" "http://r.npm.sankuai.com/style-to-object/download/style-to-object-1.0.8.tgz"
@@ -3646,29 +1695,10 @@
     "pirates" "^4.0.1"
     "ts-interface-checker" "^0.1.9"
 
-"supports-color@^7.1.0":
-  "integrity" "sha1-G33NyzK4E4gBs+R4umpRyqiWSNo="
-  "resolved" "http://r.npm.sankuai.com/supports-color/download/supports-color-7.2.0.tgz"
-  "version" "7.2.0"
-  dependencies:
-    "has-flag" "^4.0.0"
-
-"supports-color@^8.0.0", "supports-color@^8.1.1":
-  "integrity" "sha1-zW/BfihQDP9WwbhsCn/UpUpzAFw="
-  "resolved" "http://r.npm.sankuai.com/supports-color/download/supports-color-8.1.1.tgz"
-  "version" "8.1.1"
-  dependencies:
-    "has-flag" "^4.0.0"
-
 "supports-preserve-symlinks-flag@^1.0.0":
   "integrity" "sha1-btpL00SjyUrqN21MwxvHcxEDngk="
   "resolved" "http://r.npm.sankuai.com/supports-preserve-symlinks-flag/download/supports-preserve-symlinks-flag-1.0.0.tgz"
   "version" "1.0.0"
-
-"symbol-observable@4.0.0":
-  "integrity" "sha1-W0JfGSJ56H8vm5N6yFQNGYSzkgU="
-  "resolved" "http://r.npm.sankuai.com/symbol-observable/download/symbol-observable-4.0.0.tgz"
-  "version" "4.0.0"
 
 "tailwindcss@^3.4.0":
   "integrity" "sha1-roQGwPlmlqYxx5B2j/MZ1G1eWmM="
@@ -3698,23 +1728,7 @@
     "resolve" "^1.22.8"
     "sucrase" "^3.35.0"
 
-"tapable@^2.1.1", "tapable@^2.2.0", "tapable@^2.2.1":
-  "integrity" "sha1-GWenPvQGCoLxKrlq+G1S/bdu7KA="
-  "resolved" "http://r.npm.sankuai.com/tapable/download/tapable-2.2.1.tgz"
-  "version" "2.2.1"
-
-"terser-webpack-plugin@^5.3.10":
-  "integrity" "sha1-k8IfRMqGY0JXysF2+IT5Qre6ODI="
-  "resolved" "http://r.npm.sankuai.com/terser-webpack-plugin/download/terser-webpack-plugin-5.3.11.tgz"
-  "version" "5.3.11"
-  dependencies:
-    "@jridgewell/trace-mapping" "^0.3.25"
-    "jest-worker" "^27.4.5"
-    "schema-utils" "^4.3.0"
-    "serialize-javascript" "^6.0.2"
-    "terser" "^5.31.1"
-
-"terser@^5.31.1", "terser@^5.4.0":
+"terser@^5.4.0":
   "integrity" "sha1-oY2DyKzzF16EerC2aDnzwxgWfFg="
   "resolved" "http://r.npm.sankuai.com/terser/download/terser-5.38.1.tgz"
   "version" "5.38.1"
@@ -3738,39 +1752,12 @@
   dependencies:
     "any-promise" "^1.0.0"
 
-"through@^2.3.6":
-  "integrity" "sha1-DdTJ/6q8NXlgsbckEV1+Doai4fU="
-  "resolved" "http://r.npm.sankuai.com/through/download/through-2.3.8.tgz"
-  "version" "2.3.8"
-
-"tmp@^0.0.33":
-  "integrity" "sha1-bTQzWIl2jSGyvNoKonfO07G/rfk="
-  "resolved" "http://r.npm.sankuai.com/tmp/download/tmp-0.0.33.tgz"
-  "version" "0.0.33"
-  dependencies:
-    "os-tmpdir" "~1.0.2"
-
 "to-regex-range@^5.0.1":
   "integrity" "sha1-FkjESq58jZiKMmAY7XL1tN0DkuQ="
   "resolved" "http://r.npm.sankuai.com/to-regex-range/download/to-regex-range-5.0.1.tgz"
   "version" "5.0.1"
   dependencies:
     "is-number" "^7.0.0"
-
-"toidentifier@1.0.1":
-  "integrity" "sha1-O+NDIaiKgg7RvYDfqjPkefu43TU="
-  "resolved" "http://r.npm.sankuai.com/toidentifier/download/toidentifier-1.0.1.tgz"
-  "version" "1.0.1"
-
-"tr46@~0.0.3":
-  "integrity" "sha1-gYT9NH2snNwYWZLzpmIuFLnZq2o="
-  "resolved" "http://r.npm.sankuai.com/tr46/download/tr46-0.0.3.tgz"
-  "version" "0.0.3"
-
-"tree-kill@^1.2.2", "tree-kill@1.2.2":
-  "integrity" "sha1-TKCakJLIi3OnzcXooBtQeweQoMw="
-  "resolved" "http://r.npm.sankuai.com/tree-kill/download/tree-kill-1.2.2.tgz"
-  "version" "1.2.2"
 
 "trim-lines@^3.0.0":
   "integrity" "sha1-2ALjMqB9+GHEiALAQyEBexvYczg="
@@ -3787,74 +1774,15 @@
   "resolved" "http://r.npm.sankuai.com/ts-interface-checker/download/ts-interface-checker-0.1.13.tgz"
   "version" "0.1.13"
 
-"tsconfig-paths-webpack-plugin@4.2.0":
-  "integrity" "sha1-90WajtHdTPZq14eu/D03//PPB/w="
-  "resolved" "http://r.npm.sankuai.com/tsconfig-paths-webpack-plugin/download/tsconfig-paths-webpack-plugin-4.2.0.tgz"
-  "version" "4.2.0"
-  dependencies:
-    "chalk" "^4.1.0"
-    "enhanced-resolve" "^5.7.0"
-    "tapable" "^2.2.1"
-    "tsconfig-paths" "^4.1.2"
-
-"tsconfig-paths@^4.1.2", "tsconfig-paths@4.2.0":
-  "integrity" "sha1-73jhkDkTNEbSRL6sD9ahYy4tEHw="
-  "resolved" "http://r.npm.sankuai.com/tsconfig-paths/download/tsconfig-paths-4.2.0.tgz"
-  "version" "4.2.0"
-  dependencies:
-    "json5" "^2.2.2"
-    "minimist" "^1.2.6"
-    "strip-bom" "^3.0.0"
-
-"tslib@^2.1.0", "tslib@2.8.1":
-  "integrity" "sha1-YS7+TtI11Wfoq6Xypfq3AoCt6D8="
-  "resolved" "http://r.npm.sankuai.com/tslib/download/tslib-2.8.1.tgz"
-  "version" "2.8.1"
-
-"type-fest@^0.21.3":
-  "integrity" "sha1-0mCiSwGYQ24TP6JqUkptZfo7Ljc="
-  "resolved" "http://r.npm.sankuai.com/type-fest/download/type-fest-0.21.3.tgz"
-  "version" "0.21.3"
-
-"type-is@^1.6.4", "type-is@~1.6.18":
-  "integrity" "sha1-TlUs0F3wlGfcvE73Od6J8s83wTE="
-  "resolved" "http://r.npm.sankuai.com/type-is/download/type-is-1.6.18.tgz"
-  "version" "1.6.18"
-  dependencies:
-    "media-typer" "0.3.0"
-    "mime-types" "~2.1.24"
-
-"typedarray@^0.0.6":
-  "integrity" "sha1-hnrHTjhkGHsdPUfZlqeOxciDB3c="
-  "resolved" "http://r.npm.sankuai.com/typedarray/download/typedarray-0.0.6.tgz"
-  "version" "0.0.6"
-
 "typescript@^5.3.3":
   "integrity" "sha1-kZtEp9u4WDqbhW0WK+JKVL+ABz4="
   "resolved" "http://r.npm.sankuai.com/typescript/download/typescript-5.7.3.tgz"
   "version" "5.7.3"
 
-"typescript@>=4.8.2", "typescript@>=4.9.5", "typescript@>3.6.0", "typescript@5.7.2":
-  "integrity" "sha1-MWnPjEyKgozeU7qeyz0rHV3We+Y="
-  "resolved" "http://r.npm.sankuai.com/typescript/download/typescript-5.7.2.tgz"
-  "version" "5.7.2"
-
-"uid@2.0.2":
-  "integrity" "sha1-S1eCq/Dy/u78APqIAGsrO3rz47k="
-  "resolved" "http://r.npm.sankuai.com/uid/download/uid-2.0.2.tgz"
-  "version" "2.0.2"
-  dependencies:
-    "@lukeed/csprng" "^1.0.0"
-
 "undici-types@~6.19.2":
   "integrity" "sha1-NREcnRQ3q4OnzcCrri8m2I7aCgI="
   "resolved" "http://r.npm.sankuai.com/undici-types/download/undici-types-6.19.8.tgz"
   "version" "6.19.8"
-
-"undici-types@~6.20.0":
-  "integrity" "sha1-gXG/IsH1iNFVTVW/IEvGJK84hDM="
-  "resolved" "http://r.npm.sankuai.com/undici-types/download/undici-types-6.20.0.tgz"
-  "version" "6.20.0"
 
 "unified@^11.0.0":
   "integrity" "sha1-9mZ3YQpcCp7pDKsrjU1mA3Am2eE="
@@ -3907,16 +1835,6 @@
     "unist-util-is" "^6.0.0"
     "unist-util-visit-parents" "^6.0.0"
 
-"universalify@^2.0.0":
-  "integrity" "sha1-Fo78IYCWTmOG0GHglN9hr+I5sY0="
-  "resolved" "http://r.npm.sankuai.com/universalify/download/universalify-2.0.1.tgz"
-  "version" "2.0.1"
-
-"unpipe@~1.0.0", "unpipe@1.0.0":
-  "integrity" "sha1-sr9O6FFKrmFltIF4KdIbLvSZBOw="
-  "resolved" "http://r.npm.sankuai.com/unpipe/download/unpipe-1.0.0.tgz"
-  "version" "1.0.0"
-
 "update-browserslist-db@^1.1.1":
   "integrity" "sha1-l+nJarCue8rAjprlFR0m5rxrVYA="
   "resolved" "http://r.npm.sankuai.com/update-browserslist-db/download/update-browserslist-db-1.1.2.tgz"
@@ -3925,27 +1843,10 @@
     "escalade" "^3.2.0"
     "picocolors" "^1.1.1"
 
-"uri-js@^4.2.2":
-  "integrity" "sha1-mxpSWVIlhZ5V9mnZKPiMbFfyp34="
-  "resolved" "http://r.npm.sankuai.com/uri-js/download/uri-js-4.4.1.tgz"
-  "version" "4.4.1"
-  dependencies:
-    "punycode" "^2.1.0"
-
-"util-deprecate@^1.0.1", "util-deprecate@^1.0.2", "util-deprecate@~1.0.1":
+"util-deprecate@^1.0.2":
   "integrity" "sha1-RQ1Nyfpw3nMnYvvS1KKJgUGaDM8="
   "resolved" "http://r.npm.sankuai.com/util-deprecate/download/util-deprecate-1.0.2.tgz"
   "version" "1.0.2"
-
-"utils-merge@1.0.1":
-  "integrity" "sha1-n5VxD1CiZ5R7LMwSR0HBAoQn5xM="
-  "resolved" "http://r.npm.sankuai.com/utils-merge/download/utils-merge-1.0.1.tgz"
-  "version" "1.0.1"
-
-"vary@^1", "vary@~1.1.2":
-  "integrity" "sha1-IpnwLG3tMNSllhsLn3RSShj2NPw="
-  "resolved" "http://r.npm.sankuai.com/vary/download/vary-1.1.2.tgz"
-  "version" "1.1.2"
 
 "vfile-message@^4.0.0":
   "integrity" "sha1-yIPJ9nfHLBZjYv1jXyH8Flp9EYE="
@@ -3974,73 +1875,6 @@
   optionalDependencies:
     "fsevents" "~2.3.3"
 
-"watchpack@^2.4.1":
-  "integrity" "sha1-L+6u1nQS58MxhOWnnKc4+9OFZNo="
-  "resolved" "http://r.npm.sankuai.com/watchpack/download/watchpack-2.4.2.tgz"
-  "version" "2.4.2"
-  dependencies:
-    "glob-to-regexp" "^0.4.1"
-    "graceful-fs" "^4.1.2"
-
-"wcwidth@^1.0.1":
-  "integrity" "sha1-8LDc+RW8X/FSivrbLA4XtTLaL+g="
-  "resolved" "http://r.npm.sankuai.com/wcwidth/download/wcwidth-1.0.1.tgz"
-  "version" "1.0.1"
-  dependencies:
-    "defaults" "^1.0.3"
-
-"webidl-conversions@^3.0.0":
-  "integrity" "sha1-JFNCdeKnvGvnvIZhHMFq4KVlSHE="
-  "resolved" "http://r.npm.sankuai.com/webidl-conversions/download/webidl-conversions-3.0.1.tgz"
-  "version" "3.0.1"
-
-"webpack-node-externals@3.0.0":
-  "integrity" "sha1-GjQHwVjVR6n+tCKanjOFt7YMmRc="
-  "resolved" "http://r.npm.sankuai.com/webpack-node-externals/download/webpack-node-externals-3.0.0.tgz"
-  "version" "3.0.0"
-
-"webpack-sources@^3.2.3":
-  "integrity" "sha1-LU2quEUf1LJAzCcFX/agwszqDN4="
-  "resolved" "http://r.npm.sankuai.com/webpack-sources/download/webpack-sources-3.2.3.tgz"
-  "version" "3.2.3"
-
-"webpack@^5.1.0", "webpack@^5.11.0", "webpack@5.97.1":
-  "integrity" "sha1-lyqDIKQ4tW/w8dlK3p6C6sFV+lg="
-  "resolved" "http://r.npm.sankuai.com/webpack/download/webpack-5.97.1.tgz"
-  "version" "5.97.1"
-  dependencies:
-    "@types/eslint-scope" "^3.7.7"
-    "@types/estree" "^1.0.6"
-    "@webassemblyjs/ast" "^1.14.1"
-    "@webassemblyjs/wasm-edit" "^1.14.1"
-    "@webassemblyjs/wasm-parser" "^1.14.1"
-    "acorn" "^8.14.0"
-    "browserslist" "^4.24.0"
-    "chrome-trace-event" "^1.0.2"
-    "enhanced-resolve" "^5.17.1"
-    "es-module-lexer" "^1.2.1"
-    "eslint-scope" "5.1.1"
-    "events" "^3.2.0"
-    "glob-to-regexp" "^0.4.1"
-    "graceful-fs" "^4.2.11"
-    "json-parse-even-better-errors" "^2.3.1"
-    "loader-runner" "^4.2.0"
-    "mime-types" "^2.1.27"
-    "neo-async" "^2.6.2"
-    "schema-utils" "^3.2.0"
-    "tapable" "^2.1.1"
-    "terser-webpack-plugin" "^5.3.10"
-    "watchpack" "^2.4.1"
-    "webpack-sources" "^3.2.3"
-
-"whatwg-url@^5.0.0":
-  "integrity" "sha1-lmRU6HZUYuN2RNNib2dCzotwll0="
-  "resolved" "http://r.npm.sankuai.com/whatwg-url/download/whatwg-url-5.0.0.tgz"
-  "version" "5.0.0"
-  dependencies:
-    "tr46" "~0.0.3"
-    "webidl-conversions" "^3.0.0"
-
 "which@^2.0.1":
   "integrity" "sha1-fGqN0KY2oDJ+ELWckobu6T8/UbE="
   "resolved" "http://r.npm.sankuai.com/which/download/which-2.0.2.tgz"
@@ -4049,24 +1883,6 @@
     "isexe" "^2.0.0"
 
 "wrap-ansi-cjs@npm:wrap-ansi@^7.0.0":
-  "integrity" "sha1-Z+FFz/UQpqaYS98RUpEdadLrnkM="
-  "resolved" "http://r.npm.sankuai.com/wrap-ansi/download/wrap-ansi-7.0.0.tgz"
-  "version" "7.0.0"
-  dependencies:
-    "ansi-styles" "^4.0.0"
-    "string-width" "^4.1.0"
-    "strip-ansi" "^6.0.0"
-
-"wrap-ansi@^6.0.1", "wrap-ansi@^6.2.0":
-  "integrity" "sha1-6Tk7oHEC5skaOyIUePAlfNKFblM="
-  "resolved" "http://r.npm.sankuai.com/wrap-ansi/download/wrap-ansi-6.2.0.tgz"
-  "version" "6.2.0"
-  dependencies:
-    "ansi-styles" "^4.0.0"
-    "string-width" "^4.1.0"
-    "strip-ansi" "^6.0.0"
-
-"wrap-ansi@^7.0.0":
   "integrity" "sha1-Z+FFz/UQpqaYS98RUpEdadLrnkM="
   "resolved" "http://r.npm.sankuai.com/wrap-ansi/download/wrap-ansi-7.0.0.tgz"
   "version" "7.0.0"
@@ -4084,26 +1900,6 @@
     "string-width" "^5.0.1"
     "strip-ansi" "^7.0.1"
 
-"ws@~8.17.1":
-  "integrity" "sha1-kpPaUwu1SP68lTcdkPnIeHJ9kZs="
-  "resolved" "http://r.npm.sankuai.com/ws/download/ws-8.17.1.tgz"
-  "version" "8.17.1"
-
-"xmlhttprequest-ssl@~2.1.1":
-  "integrity" "sha1-6egCOz8p7zS5eoWfWExebGFBjiM="
-  "resolved" "http://r.npm.sankuai.com/xmlhttprequest-ssl/download/xmlhttprequest-ssl-2.1.2.tgz"
-  "version" "2.1.2"
-
-"xtend@^4.0.0":
-  "integrity" "sha1-u3J3n1+kZRhrH0OPZ0+jR/2121Q="
-  "resolved" "http://r.npm.sankuai.com/xtend/download/xtend-4.0.2.tgz"
-  "version" "4.0.2"
-
-"y18n@^5.0.5":
-  "integrity" "sha1-f0k00PfKjFb5UxSTndzS3ZHOHVU="
-  "resolved" "http://r.npm.sankuai.com/y18n/download/y18n-5.0.8.tgz"
-  "version" "5.0.8"
-
 "yallist@^3.0.2":
   "integrity" "sha1-27fa+b/YusmrRev2ArjLrQ1dCP0="
   "resolved" "http://r.npm.sankuai.com/yallist/download/yallist-3.1.1.tgz"
@@ -4113,24 +1909,6 @@
   "integrity" "sha1-rvm7YXpkyTepp0iAN4atjT/+Hpg="
   "resolved" "http://r.npm.sankuai.com/yaml/download/yaml-2.7.0.tgz"
   "version" "2.7.0"
-
-"yargs-parser@^21.1.1", "yargs-parser@21.1.1":
-  "integrity" "sha1-kJa87r+ZDSG7MfqVFuDt4pSnfTU="
-  "resolved" "http://r.npm.sankuai.com/yargs-parser/download/yargs-parser-21.1.1.tgz"
-  "version" "21.1.1"
-
-"yargs@^17.7.2":
-  "integrity" "sha1-mR3zmspnWhkrgW4eA2P5110qomk="
-  "resolved" "http://r.npm.sankuai.com/yargs/download/yargs-17.7.2.tgz"
-  "version" "17.7.2"
-  dependencies:
-    "cliui" "^8.0.1"
-    "escalade" "^3.1.1"
-    "get-caller-file" "^2.0.5"
-    "require-directory" "^2.1.1"
-    "string-width" "^4.2.3"
-    "y18n" "^5.0.5"
-    "yargs-parser" "^21.1.1"
 
 "zwitch@^2.0.0":
   "integrity" "sha1-yCfUsKy3b8PmhaTG7CkC1RBw6dc="

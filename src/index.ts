@@ -1,6 +1,6 @@
 import './client/index.css'; // 确保样式文件被引入
 import React from 'react';
-import ReactDOM from 'react-dom/client';
+import ReactDOM from 'react-dom'; // 修改为React 16的导入方式
 import { IntelligentChat } from './client/App';
 import { ChatConfig } from './config';
 
@@ -9,7 +9,7 @@ export interface InitOptions extends ChatConfig {
   routeWhitelist?: string[]; // 路由白名单，支持字符串或正则表达式字符串
 }
 
-let chatRoot: ReactDOM.Root | null = null;
+let chatRoot: Element | null = null;
 let chatContainer: HTMLElement | null = null;
 
 // 添加全局变量存储原始方法
@@ -62,13 +62,18 @@ export function initIntelligentChat(options: InitOptions): void {
 
   // 渲染组件
   if (!chatRoot) {
-    chatRoot = ReactDOM.createRoot(chatContainer);
+    chatRoot = document.createElement('div');
+    chatRoot.id = 'intelligent-chat-container';
+    document.body.appendChild(chatRoot);
   }
   
-  chatRoot.render(
-    React.createElement(React.StrictMode, null, 
+  ReactDOM.render(
+    React.createElement(
+      React.StrictMode,
+      null,
       React.createElement(IntelligentChat, { config: options })
-    )
+    ),
+    chatRoot
   );
 
   // 监听路由变化
@@ -133,7 +138,8 @@ function updateVisibility(whitelist?: string[]): void {
 // 添加销毁方法
 export function destroyIntelligentChat(): void {
   if (chatRoot) {
-    chatRoot.unmount();
+    ReactDOM.unmountComponentAtNode(chatRoot);
+    document.body.removeChild(chatRoot);
     chatRoot = null;
   }
   
