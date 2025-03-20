@@ -14,6 +14,26 @@ interface AppProps {
   config: ChatConfig;
 }
 
+class ErrorBoundary extends React.Component {
+  state = { hasError: false };
+
+  static getDerivedStateFromError(error) {
+    return { hasError: true };
+  }
+
+  componentDidCatch(error, errorInfo) {
+    console.error('Error rendering markdown:', error, errorInfo);
+  }
+
+  render() {
+    if (this.state.hasError) {
+      return <div>Error rendering message</div>;
+    }
+
+    return this.props.children;
+  }
+}
+
 function ChatWidget() {
   const config = useChatConfig();
   const [messages, setMessages] = useState<Message[]>([]);
@@ -229,7 +249,27 @@ function ChatWidget() {
                   }`}
                   style={message.isUser ? userBubbleStyle : aiBubbleStyle}
                 >
-                  <ReactMarkdown className="prose text-sm">{message.text}</ReactMarkdown>
+                  <ErrorBoundary>
+                    <ReactMarkdown
+                      children={message.text}
+                      components={{
+                        code({ node, inline, className, children, ...props }) {
+                          return (
+                            <code className={className} {...props}>
+                              {children}
+                            </code>
+                          );
+                        },
+                        a({ node, href, children, ...props }) {
+                          return (
+                            <a href={href} target="_blank" rel="noopener noreferrer" {...props}>
+                              {children}
+                            </a>
+                          );
+                        }
+                      }}
+                    />
+                  </ErrorBoundary>
                   {!message.isUser && message.text && message.isDone && (
                     <button
                       onClick={() => handleCopy(message.text)}
