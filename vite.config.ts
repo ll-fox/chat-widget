@@ -33,5 +33,10 @@ export default defineConfig({
       plugins: [require('tailwindcss')]
     }
   },
-  publicDir: '../../public'
+  publicDir: '../../public',
+  resolve: {
+    alias: {
+      '@': resolve(__dirname, 'src')
+    }
+  }
 });
