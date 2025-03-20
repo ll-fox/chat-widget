@@ -150,5 +150,4 @@ export function destroyIntelligentChat(): void {
   window.removeEventListener('popstate', handlePopState);
 }
 
-// 导出配置类型
-export type { ChatConfig } from './config'; 
+export type { ChatConfig }; 

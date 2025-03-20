@@ -9,7 +9,7 @@ export default defineConfig({
     outDir: '../../dist/client',
     emptyOutDir: true,
     lib: {
-      entry: resolve(__dirname, 'src/client/App.tsx'),
+      entry: resolve(__dirname, 'src/index.ts'),
       name: 'IntelligentChat',
       fileName: (format) => `intelligent-chat.${format}.js`,
       formats: ['es', 'umd']
