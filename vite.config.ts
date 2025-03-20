@@ -3,9 +3,11 @@ import react from '@vitejs/plugin-react';
 import { resolve } from 'path';
 
 export default defineConfig({
-  plugins: [react({
-    jsxRuntime: 'classic'
-  })],
+  plugins: [
+    react({
+      jsxRuntime: 'classic'
+    })
+  ],
   root: 'src/client',
   build: {
     outDir: '../../dist/client',
@@ -21,10 +23,8 @@ export default defineConfig({
       formats: ['es', 'umd']
     },
     rollupOptions: {
-      // 将react和react-dom标记为外部依赖，不打包进库中
       external: ['react', 'react-dom'],
       output: {
-        // 定义外部依赖的全局变量名称
         globals: {
           react: 'React',
           'react-dom': 'ReactDOM'

@@ -10,8 +10,10 @@ const demoConfig = {
 };
 
 ReactDOM.render(
-  <React.StrictMode>
-    <IntelligentChat config={demoConfig} />
-  </React.StrictMode>,
+  React.createElement(
+    React.StrictMode,
+    null,
+    React.createElement(IntelligentChat, { config: demoConfig })
+  ),
   document.getElementById('root')
 );
