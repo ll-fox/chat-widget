@@ -23,6 +23,7 @@ export default defineConfig({
         }
       }
     },
+    cssCodeSplit: true,
   },
   server: {
     port: 5174,
@@ -31,6 +32,9 @@ export default defineConfig({
   css: {
     postcss: {
       plugins: [require('tailwindcss')]
+    },
+    modules: {
+      localsConvention: 'camelCaseOnly'
     }
   },
   publicDir: '../../public',
