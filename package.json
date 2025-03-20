@@ -36,7 +36,9 @@
   "exports": {
     ".": {
       "import": "./dist/client/intelligent-chat.es.js",
-      "require": "./dist/client/intelligent-chat.umd.js"
-    }
+      "require": "./dist/client/intelligent-chat.umd.js",
+      "types": "./dist/client/index.d.ts"
+    },
+    "./dist/client/*": "./dist/client/*"
   }
 }
