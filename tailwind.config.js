@@ -2,6 +2,7 @@
 module.exports = {
   content: [
     "./src/client/**/*.{ts,tsx}",
+    "./dist/**/*.{js,jsx,ts,tsx}"
   ],
   theme: {
     extend: {

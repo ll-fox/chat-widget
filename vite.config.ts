@@ -22,7 +22,7 @@ export default defineConfig({
           'react-dom': 'ReactDOM'
         }
       }
-    }
+    },
   },
   server: {
     port: 5174,
