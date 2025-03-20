@@ -1,4 +1,4 @@
-import './client/index.css'; // 手动引入样式文件
+import './client/index.css'; // 确保样式文件被引入
 import React from 'react';
 import ReactDOM from 'react-dom/client';
 import { IntelligentChat } from './client/App';
