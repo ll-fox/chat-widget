@@ -23,17 +23,20 @@ export default defineConfig({
         }
       }
     },
-    cssCodeSplit: true,
+    // cssCodeSplit: true,
   },
   server: {
     port: 5174,
     cors: true
   },
   css: {
+    // 配置PostCSS插件，这里使用了Tailwind CSS
     postcss: {
       plugins: [require('tailwindcss')]
     },
+    // 配置CSS模块的类名转换规则
     modules: {
+      // 将CSS模块中的类名统一转换为驼峰命名
       localsConvention: 'camelCaseOnly'
     }
   },
