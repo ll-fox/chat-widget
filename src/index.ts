@@ -1,6 +1,6 @@
 import './client/index.css'; // 确保样式文件被引入
-import React from 'react';
-import ReactDOM from 'react-dom/client';
+import * as React from 'react';
+import * as ReactDOM from 'react-dom'; // 使用 react-dom 而不是 react-dom/client
 import { IntelligentChat } from './client/App';
 import { ChatConfig } from './config';
 
@@ -9,7 +9,7 @@ export interface InitOptions extends ChatConfig {
   routeWhitelist?: string[]; // 路由白名单，支持字符串或正则表达式字符串
 }
 
-let chatRoot: ReactDOM.Root | null = null;
+let chatRoot: HTMLElement | null = null;
 let chatContainer: HTMLElement | null = null;
 
 // 添加全局变量存储原始方法
@@ -23,7 +23,7 @@ let handlePopState: () => void;
  */
 export function initIntelligentChat(options: InitOptions): void {
   // 如果已经初始化，先销毁
-  if (chatRoot) {
+  if (chatContainer) {
     destroyIntelligentChat();
   }
 
@@ -61,14 +61,11 @@ export function initIntelligentChat(options: InitOptions): void {
   }
 
   // 渲染组件
-  if (!chatRoot) {
-    chatRoot = ReactDOM.createRoot(chatContainer);
-  }
-  
-  chatRoot.render(
-    React.createElement(React.StrictMode, null, 
+  ReactDOM.render(
+    React.createElement(React.StrictMode, null,
       React.createElement(IntelligentChat, { config: options })
-    )
+    ),
+    chatContainer
   );
 
   // 监听路由变化
@@ -132,12 +129,8 @@ function updateVisibility(whitelist?: string[]): void {
 
 // 添加销毁方法
 export function destroyIntelligentChat(): void {
-  if (chatRoot) {
-    chatRoot.unmount();
-    chatRoot = null;
-  }
-  
   if (chatContainer) {
+    ReactDOM.unmountComponentAtNode(chatContainer); // 使用 unmountComponentAtNode 卸载组件
     document.body.removeChild(chatContainer);
     chatContainer = null;
   }

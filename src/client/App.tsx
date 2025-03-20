@@ -2,7 +2,7 @@ import React, { useState, useEffect, useRef } from 'react';
 import ReactMarkdown from 'react-markdown';
 import Draggable from 'react-draggable';
 import { ChatProvider, useChatConfig } from '../context';
-import { ChatConfig } from '@/config';
+import { ChatConfig } from '../config';
 
 interface Message {
   text: string;
@@ -275,10 +275,16 @@ function ChatWidget() {
   );
 }
 
-export function IntelligentChat(props: AppProps) {
+interface IntelligentChatProps {
+  config: ChatConfig;
+}
+
+const IntelligentChat: React.FC<IntelligentChatProps> = ({ config }) => {
   return (
-    <ChatProvider config={props.config}>
+    <ChatProvider config={config}>
       <ChatWidget />
     </ChatProvider>
   );
-}
+};
+
+export { IntelligentChat };

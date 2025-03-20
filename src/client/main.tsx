@@ -1,6 +1,6 @@
 import { IntelligentChat } from './App';
 import React from 'react';
-import ReactDOM from 'react-dom/client';
+import ReactDOM from 'react-dom';
 import './index.css';
 
 // 创建示例配置
@@ -9,8 +9,9 @@ const demoConfig = {
   socketUrl: 'http://localhost:3000'
 };
 
-ReactDOM.createRoot(document.getElementById('root')!).render(
+ReactDOM.render(
   <React.StrictMode>
     <IntelligentChat config={demoConfig} />
-  </React.StrictMode>
+  </React.StrictMode>,
+  document.getElementById('root')
 );
